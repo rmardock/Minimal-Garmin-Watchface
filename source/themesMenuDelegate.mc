@@ -22,7 +22,6 @@ class themesMenuDelegate extends WatchUi.Menu2InputDelegate {
         var distance = "DistanceColor";
         var battery = "BatteryColor";
         var temp = "TempColor";
-        var tempSymbol = "TempSymbol";
         var lines = "Lines";
 
         // Catppuccin Mocha Theme
@@ -34,7 +33,6 @@ class themesMenuDelegate extends WatchUi.Menu2InputDelegate {
             Properties.setValue(heart, 0xf38ba8);
             Properties.setValue(distance, 0xcba6f7);
             Properties.setValue(temp, 0x89dceb);
-            Properties.setValue(tempSymbol, 0x89dceb);
             Properties.setValue(lines, 0x2a2630);
 
             // Return to main menu
@@ -50,7 +48,6 @@ class themesMenuDelegate extends WatchUi.Menu2InputDelegate {
             Properties.setValue(battery, 0xb5ff0d);
             Properties.setValue(distance, 0x800bf0);
             Properties.setValue(temp, 0xb5ff0d);
-            Properties.setValue(tempSymbol, 0xb5ff0d);
             Properties.setValue(heart, 0xb5ff0d);
             Properties.setValue(lines, 0x2a2630);
 
@@ -67,9 +64,12 @@ class themesMenuDelegate extends WatchUi.Menu2InputDelegate {
             Properties.setValue(battery, 0xe4ff52);
             Properties.setValue(distance, 0xe4ff52);
             Properties.setValue(temp, 0xe4ff52);
-            Properties.setValue(tempSymbol, 0xe4ff52);
             Properties.setValue(heart, 0xe4ff52);
             Properties.setValue(lines, 0x2a2630);
+
+            // Return to main menu
+            WatchUi.popView(WatchUi.SLIDE_RIGHT);
+            return;
         }
 
         // Electric Blue Theme
@@ -78,9 +78,8 @@ class themesMenuDelegate extends WatchUi.Menu2InputDelegate {
             // Set color properties
             Properties.setValue(time, 0x00aaff);
             Properties.setValue(battery, 0x00ff00);
-            Properties.setValue(distance, 0xffffff);
+            Properties.setValue(distance, 0x00ff00);
             Properties.setValue(temp, 0x00ff00);
-            Properties.setValue(tempSymbol, 0x00ff00);
             Properties.setValue(heart, 0x00ff00);
             Properties.setValue(lines, 0x2a2630);
 

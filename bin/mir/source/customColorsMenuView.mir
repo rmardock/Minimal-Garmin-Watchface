@@ -24,7 +24,7 @@ _home_ry_dev_Minimal_Garmin_Watchface_source_customColorsMenuView_mc_8_4_19_4_st
         %tmp.4 = newd 1;
         %tmp.6 = const :title;
         symbol [ title %tmp.6 10 27 32 const ];
-        %tmp.7 = "CustomColors";
+        %tmp.7 = "Custom Colors";
         %tmp.8 = dup %tmp.4;
         %tmp.9 = aputv %tmp.8 %tmp.6 %tmp.7;
         invoke %tmp.2 %tmp.3(%tmp.9);

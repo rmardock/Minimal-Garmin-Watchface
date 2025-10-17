@@ -155,9 +155,9 @@
         <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuView.mc" id="39" lineNum="10" parent="globals/mainMenuView" pc="268437907" symbol="initialize"/>
         <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuView.mc" id="39" lineNum="13" parent="globals/mainMenuView" pc="268437937" symbol="initialize"/>
         <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuView.mc" id="39" lineNum="14" parent="globals/mainMenuView" pc="268437985" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="40" lineNum="94" parent="globals/themesMenuDelegate" pc="268438034" symbol="onBack"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="40" lineNum="96" parent="globals/themesMenuDelegate" pc="268438036" symbol="onBack"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="40" lineNum="97" parent="globals/themesMenuDelegate" pc="268438051" symbol="onBack"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="40" lineNum="93" parent="globals/themesMenuDelegate" pc="268438034" symbol="onBack"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="40" lineNum="95" parent="globals/themesMenuDelegate" pc="268438036" symbol="onBack"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="40" lineNum="96" parent="globals/themesMenuDelegate" pc="268438051" symbol="onBack"/>
         <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="41" lineNum="7" parent="globals/themesMenuDelegate" pc="268438052" symbol="initialize"/>
         <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="41" lineNum="10" parent="globals/themesMenuDelegate" pc="268438054" symbol="initialize"/>
         <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="14" parent="globals/themesMenuDelegate" pc="268438067" symbol="onSelect"/>
@@ -168,138 +168,135 @@
         <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="23" parent="globals/themesMenuDelegate" pc="268438106" symbol="onSelect"/>
         <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="24" parent="globals/themesMenuDelegate" pc="268438113" symbol="onSelect"/>
         <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="25" parent="globals/themesMenuDelegate" pc="268438120" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="26" parent="globals/themesMenuDelegate" pc="268438127" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="29" parent="globals/themesMenuDelegate" pc="268438134" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="32" parent="globals/themesMenuDelegate" pc="268438151" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="33" parent="globals/themesMenuDelegate" pc="268438171" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="34" parent="globals/themesMenuDelegate" pc="268438191" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="35" parent="globals/themesMenuDelegate" pc="268438211" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="36" parent="globals/themesMenuDelegate" pc="268438231" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="37" parent="globals/themesMenuDelegate" pc="268438251" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="38" parent="globals/themesMenuDelegate" pc="268438271" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="41" parent="globals/themesMenuDelegate" pc="268438290" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="42" parent="globals/themesMenuDelegate" pc="268438305" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="46" parent="globals/themesMenuDelegate" pc="268438309" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="49" parent="globals/themesMenuDelegate" pc="268438326" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="50" parent="globals/themesMenuDelegate" pc="268438346" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="51" parent="globals/themesMenuDelegate" pc="268438366" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="52" parent="globals/themesMenuDelegate" pc="268438386" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="53" parent="globals/themesMenuDelegate" pc="268438406" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="54" parent="globals/themesMenuDelegate" pc="268438426" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="55" parent="globals/themesMenuDelegate" pc="268438446" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="58" parent="globals/themesMenuDelegate" pc="268438465" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="59" parent="globals/themesMenuDelegate" pc="268438480" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="63" parent="globals/themesMenuDelegate" pc="268438484" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="66" parent="globals/themesMenuDelegate" pc="268438501" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="67" parent="globals/themesMenuDelegate" pc="268438521" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="68" parent="globals/themesMenuDelegate" pc="268438541" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="69" parent="globals/themesMenuDelegate" pc="268438561" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="70" parent="globals/themesMenuDelegate" pc="268438581" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="71" parent="globals/themesMenuDelegate" pc="268438601" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="72" parent="globals/themesMenuDelegate" pc="268438621" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="76" parent="globals/themesMenuDelegate" pc="268438643" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="79" parent="globals/themesMenuDelegate" pc="268438660" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="80" parent="globals/themesMenuDelegate" pc="268438679" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="81" parent="globals/themesMenuDelegate" pc="268438698" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="82" parent="globals/themesMenuDelegate" pc="268438718" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="83" parent="globals/themesMenuDelegate" pc="268438737" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="84" parent="globals/themesMenuDelegate" pc="268438756" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="85" parent="globals/themesMenuDelegate" pc="268438775" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="88" parent="globals/themesMenuDelegate" pc="268438794" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="89" parent="globals/themesMenuDelegate" pc="268438809" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc" id="43" lineNum="12" parent="globals/MinGFaceApp" pc="268438814" symbol="onStart"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc" id="44" lineNum="20" parent="globals/MinGFaceApp" pc="268438817" symbol="getSettingsView"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc" id="44" lineNum="21" parent="globals/MinGFaceApp" pc="268438819" symbol="getSettingsView"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc" id="45" lineNum="30" parent="globals/MinGFaceApp" pc="268438866" symbol="onSettingsChanged"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc" id="45" lineNum="31" parent="globals/MinGFaceApp" pc="268438868" symbol="onSettingsChanged"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc" id="46" lineNum="25" parent="globals/MinGFaceApp" pc="268438880" symbol="getInitialView"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc" id="46" lineNum="26" parent="globals/MinGFaceApp" pc="268438882" symbol="getInitialView"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc" id="47" lineNum="7" parent="globals/MinGFaceApp" pc="268438908" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc" id="47" lineNum="8" parent="globals/MinGFaceApp" pc="268438910" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc" id="48" lineNum="16" parent="globals/MinGFaceApp" pc="268438923" symbol="onStop"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="49" lineNum="34" parent="globals/mainMenuDelegate" pc="268438926" symbol="onBack"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="49" lineNum="36" parent="globals/mainMenuDelegate" pc="268438928" symbol="onBack"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="49" lineNum="37" parent="globals/mainMenuDelegate" pc="268438943" symbol="onBack"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="50" lineNum="7" parent="globals/mainMenuDelegate" pc="268438944" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="50" lineNum="10" parent="globals/mainMenuDelegate" pc="268438946" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="51" lineNum="13" parent="globals/mainMenuDelegate" pc="268438959" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="51" lineNum="16" parent="globals/mainMenuDelegate" pc="268438962" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="51" lineNum="19" parent="globals/mainMenuDelegate" pc="268438977" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="51" lineNum="21" parent="globals/mainMenuDelegate" pc="268438994" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="51" lineNum="22" parent="globals/mainMenuDelegate" pc="268439014" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="51" lineNum="26" parent="globals/mainMenuDelegate" pc="268439052" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="51" lineNum="28" parent="globals/mainMenuDelegate" pc="268439069" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="51" lineNum="29" parent="globals/mainMenuDelegate" pc="268439089" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="7" parent="globals/customColorsView" pc="268439128" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="10" parent="globals/customColorsView" pc="268439130" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="13" parent="globals/customColorsView" pc="268439160" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="14" parent="globals/customColorsView" pc="268439208" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="15" parent="globals/customColorsView" pc="268439256" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="16" parent="globals/customColorsView" pc="268439304" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="17" parent="globals/customColorsView" pc="268439352" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="18" parent="globals/customColorsView" pc="268439400" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="19" parent="globals/customColorsView" pc="268439448" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="20" parent="globals/customColorsView" pc="268439496" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="21" parent="globals/customColorsView" pc="268439544" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="22" parent="globals/customColorsView" pc="268439592" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="23" parent="globals/customColorsView" pc="268439640" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="24" parent="globals/customColorsView" pc="268439688" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="53" lineNum="97" parent="globals/customColorsDelegate" pc="268439737" symbol="onBack"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="53" lineNum="98" parent="globals/customColorsDelegate" pc="268439739" symbol="onBack"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="53" lineNum="99" parent="globals/customColorsDelegate" pc="268439754" symbol="onBack"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="54" lineNum="10" parent="globals/customColorsDelegate" pc="268439755" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="54" lineNum="13" parent="globals/customColorsDelegate" pc="268439757" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="54" lineNum="15" parent="globals/customColorsDelegate" pc="268439769" symbol="initialize"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="17" parent="globals/customColorsDelegate" pc="268439779" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="18" parent="globals/customColorsDelegate" pc="268439782" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="21" parent="globals/customColorsDelegate" pc="268439797" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="23" parent="globals/customColorsDelegate" pc="268439814" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="24" parent="globals/customColorsDelegate" pc="268439837" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="25" parent="globals/customColorsDelegate" pc="268439852" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="27" parent="globals/customColorsDelegate" pc="268439856" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="29" parent="globals/customColorsDelegate" pc="268439873" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="30" parent="globals/customColorsDelegate" pc="268439896" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="31" parent="globals/customColorsDelegate" pc="268439911" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="33" parent="globals/customColorsDelegate" pc="268439915" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="35" parent="globals/customColorsDelegate" pc="268439932" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="36" parent="globals/customColorsDelegate" pc="268439955" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="37" parent="globals/customColorsDelegate" pc="268439970" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="39" parent="globals/customColorsDelegate" pc="268439974" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="41" parent="globals/customColorsDelegate" pc="268439991" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="42" parent="globals/customColorsDelegate" pc="268440014" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="43" parent="globals/customColorsDelegate" pc="268440029" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="45" parent="globals/customColorsDelegate" pc="268440033" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="47" parent="globals/customColorsDelegate" pc="268440050" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="48" parent="globals/customColorsDelegate" pc="268440073" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="49" parent="globals/customColorsDelegate" pc="268440088" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="51" parent="globals/customColorsDelegate" pc="268440092" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="53" parent="globals/customColorsDelegate" pc="268440109" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="54" parent="globals/customColorsDelegate" pc="268440132" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="55" parent="globals/customColorsDelegate" pc="268440147" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="57" parent="globals/customColorsDelegate" pc="268440151" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="59" parent="globals/customColorsDelegate" pc="268440168" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="60" parent="globals/customColorsDelegate" pc="268440190" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="61" parent="globals/customColorsDelegate" pc="268440205" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="64" parent="globals/customColorsDelegate" pc="268440209" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="66" parent="globals/customColorsDelegate" pc="268440226" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="67" parent="globals/customColorsDelegate" pc="268440248" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="68" parent="globals/customColorsDelegate" pc="268440263" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="70" parent="globals/customColorsDelegate" pc="268440267" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="72" parent="globals/customColorsDelegate" pc="268440284" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="73" parent="globals/customColorsDelegate" pc="268440307" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="74" parent="globals/customColorsDelegate" pc="268440322" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="76" parent="globals/customColorsDelegate" pc="268440326" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="78" parent="globals/customColorsDelegate" pc="268440343" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="79" parent="globals/customColorsDelegate" pc="268440366" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="80" parent="globals/customColorsDelegate" pc="268440381" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="82" parent="globals/customColorsDelegate" pc="268440385" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="84" parent="globals/customColorsDelegate" pc="268440402" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="85" parent="globals/customColorsDelegate" pc="268440425" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="86" parent="globals/customColorsDelegate" pc="268440440" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="88" parent="globals/customColorsDelegate" pc="268440444" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="90" parent="globals/customColorsDelegate" pc="268440461" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="91" parent="globals/customColorsDelegate" pc="268440484" symbol="onSelect"/>
-        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="92" parent="globals/customColorsDelegate" pc="268440499" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="28" parent="globals/themesMenuDelegate" pc="268438127" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="31" parent="globals/themesMenuDelegate" pc="268438144" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="32" parent="globals/themesMenuDelegate" pc="268438164" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="33" parent="globals/themesMenuDelegate" pc="268438184" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="34" parent="globals/themesMenuDelegate" pc="268438204" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="35" parent="globals/themesMenuDelegate" pc="268438224" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="36" parent="globals/themesMenuDelegate" pc="268438244" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="39" parent="globals/themesMenuDelegate" pc="268438263" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="40" parent="globals/themesMenuDelegate" pc="268438278" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="44" parent="globals/themesMenuDelegate" pc="268438282" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="47" parent="globals/themesMenuDelegate" pc="268438299" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="48" parent="globals/themesMenuDelegate" pc="268438319" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="49" parent="globals/themesMenuDelegate" pc="268438339" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="50" parent="globals/themesMenuDelegate" pc="268438359" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="51" parent="globals/themesMenuDelegate" pc="268438379" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="52" parent="globals/themesMenuDelegate" pc="268438399" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="55" parent="globals/themesMenuDelegate" pc="268438418" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="56" parent="globals/themesMenuDelegate" pc="268438433" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="60" parent="globals/themesMenuDelegate" pc="268438437" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="63" parent="globals/themesMenuDelegate" pc="268438454" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="64" parent="globals/themesMenuDelegate" pc="268438474" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="65" parent="globals/themesMenuDelegate" pc="268438494" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="66" parent="globals/themesMenuDelegate" pc="268438514" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="67" parent="globals/themesMenuDelegate" pc="268438534" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="68" parent="globals/themesMenuDelegate" pc="268438554" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="71" parent="globals/themesMenuDelegate" pc="268438573" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="72" parent="globals/themesMenuDelegate" pc="268438588" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="76" parent="globals/themesMenuDelegate" pc="268438592" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="79" parent="globals/themesMenuDelegate" pc="268438609" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="80" parent="globals/themesMenuDelegate" pc="268438628" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="81" parent="globals/themesMenuDelegate" pc="268438647" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="82" parent="globals/themesMenuDelegate" pc="268438666" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="83" parent="globals/themesMenuDelegate" pc="268438685" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="84" parent="globals/themesMenuDelegate" pc="268438704" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="87" parent="globals/themesMenuDelegate" pc="268438723" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" id="42" lineNum="88" parent="globals/themesMenuDelegate" pc="268438738" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc" id="43" lineNum="12" parent="globals/MinGFaceApp" pc="268438743" symbol="onStart"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc" id="44" lineNum="20" parent="globals/MinGFaceApp" pc="268438746" symbol="getSettingsView"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc" id="44" lineNum="21" parent="globals/MinGFaceApp" pc="268438748" symbol="getSettingsView"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc" id="45" lineNum="30" parent="globals/MinGFaceApp" pc="268438795" symbol="onSettingsChanged"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc" id="45" lineNum="31" parent="globals/MinGFaceApp" pc="268438797" symbol="onSettingsChanged"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc" id="46" lineNum="25" parent="globals/MinGFaceApp" pc="268438809" symbol="getInitialView"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc" id="46" lineNum="26" parent="globals/MinGFaceApp" pc="268438811" symbol="getInitialView"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc" id="47" lineNum="7" parent="globals/MinGFaceApp" pc="268438837" symbol="initialize"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc" id="47" lineNum="8" parent="globals/MinGFaceApp" pc="268438839" symbol="initialize"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc" id="48" lineNum="16" parent="globals/MinGFaceApp" pc="268438852" symbol="onStop"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="49" lineNum="34" parent="globals/mainMenuDelegate" pc="268438855" symbol="onBack"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="49" lineNum="36" parent="globals/mainMenuDelegate" pc="268438857" symbol="onBack"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="49" lineNum="37" parent="globals/mainMenuDelegate" pc="268438872" symbol="onBack"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="50" lineNum="7" parent="globals/mainMenuDelegate" pc="268438873" symbol="initialize"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="50" lineNum="10" parent="globals/mainMenuDelegate" pc="268438875" symbol="initialize"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="51" lineNum="13" parent="globals/mainMenuDelegate" pc="268438888" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="51" lineNum="16" parent="globals/mainMenuDelegate" pc="268438891" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="51" lineNum="19" parent="globals/mainMenuDelegate" pc="268438906" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="51" lineNum="21" parent="globals/mainMenuDelegate" pc="268438923" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="51" lineNum="22" parent="globals/mainMenuDelegate" pc="268438943" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="51" lineNum="26" parent="globals/mainMenuDelegate" pc="268438981" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="51" lineNum="28" parent="globals/mainMenuDelegate" pc="268438998" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" id="51" lineNum="29" parent="globals/mainMenuDelegate" pc="268439018" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="7" parent="globals/customColorsView" pc="268439057" symbol="initialize"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="10" parent="globals/customColorsView" pc="268439059" symbol="initialize"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="13" parent="globals/customColorsView" pc="268439089" symbol="initialize"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="14" parent="globals/customColorsView" pc="268439137" symbol="initialize"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="15" parent="globals/customColorsView" pc="268439185" symbol="initialize"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="16" parent="globals/customColorsView" pc="268439233" symbol="initialize"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="17" parent="globals/customColorsView" pc="268439281" symbol="initialize"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="18" parent="globals/customColorsView" pc="268439329" symbol="initialize"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="19" parent="globals/customColorsView" pc="268439377" symbol="initialize"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="20" parent="globals/customColorsView" pc="268439425" symbol="initialize"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="21" parent="globals/customColorsView" pc="268439473" symbol="initialize"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="22" parent="globals/customColorsView" pc="268439521" symbol="initialize"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="23" parent="globals/customColorsView" pc="268439569" symbol="initialize"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsView.mc" id="52" lineNum="24" parent="globals/customColorsView" pc="268439617" symbol="initialize"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="53" lineNum="97" parent="globals/customColorsDelegate" pc="268439666" symbol="onBack"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="53" lineNum="98" parent="globals/customColorsDelegate" pc="268439668" symbol="onBack"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="53" lineNum="99" parent="globals/customColorsDelegate" pc="268439683" symbol="onBack"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="54" lineNum="10" parent="globals/customColorsDelegate" pc="268439684" symbol="initialize"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="54" lineNum="13" parent="globals/customColorsDelegate" pc="268439686" symbol="initialize"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="54" lineNum="15" parent="globals/customColorsDelegate" pc="268439698" symbol="initialize"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="17" parent="globals/customColorsDelegate" pc="268439708" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="18" parent="globals/customColorsDelegate" pc="268439711" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="21" parent="globals/customColorsDelegate" pc="268439726" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="23" parent="globals/customColorsDelegate" pc="268439743" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="24" parent="globals/customColorsDelegate" pc="268439766" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="25" parent="globals/customColorsDelegate" pc="268439781" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="27" parent="globals/customColorsDelegate" pc="268439785" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="29" parent="globals/customColorsDelegate" pc="268439802" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="30" parent="globals/customColorsDelegate" pc="268439825" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="31" parent="globals/customColorsDelegate" pc="268439840" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="33" parent="globals/customColorsDelegate" pc="268439844" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="35" parent="globals/customColorsDelegate" pc="268439861" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="36" parent="globals/customColorsDelegate" pc="268439884" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="37" parent="globals/customColorsDelegate" pc="268439899" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="39" parent="globals/customColorsDelegate" pc="268439903" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="41" parent="globals/customColorsDelegate" pc="268439920" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="42" parent="globals/customColorsDelegate" pc="268439943" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="43" parent="globals/customColorsDelegate" pc="268439958" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="45" parent="globals/customColorsDelegate" pc="268439962" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="47" parent="globals/customColorsDelegate" pc="268439979" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="48" parent="globals/customColorsDelegate" pc="268440002" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="49" parent="globals/customColorsDelegate" pc="268440017" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="51" parent="globals/customColorsDelegate" pc="268440021" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="53" parent="globals/customColorsDelegate" pc="268440038" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="54" parent="globals/customColorsDelegate" pc="268440061" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="55" parent="globals/customColorsDelegate" pc="268440076" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="57" parent="globals/customColorsDelegate" pc="268440080" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="59" parent="globals/customColorsDelegate" pc="268440097" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="60" parent="globals/customColorsDelegate" pc="268440119" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="61" parent="globals/customColorsDelegate" pc="268440134" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="64" parent="globals/customColorsDelegate" pc="268440138" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="66" parent="globals/customColorsDelegate" pc="268440155" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="67" parent="globals/customColorsDelegate" pc="268440177" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="68" parent="globals/customColorsDelegate" pc="268440192" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="70" parent="globals/customColorsDelegate" pc="268440196" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="72" parent="globals/customColorsDelegate" pc="268440213" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="73" parent="globals/customColorsDelegate" pc="268440236" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="74" parent="globals/customColorsDelegate" pc="268440251" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="76" parent="globals/customColorsDelegate" pc="268440255" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="78" parent="globals/customColorsDelegate" pc="268440272" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="79" parent="globals/customColorsDelegate" pc="268440295" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="80" parent="globals/customColorsDelegate" pc="268440310" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="82" parent="globals/customColorsDelegate" pc="268440314" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="84" parent="globals/customColorsDelegate" pc="268440331" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="85" parent="globals/customColorsDelegate" pc="268440354" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="86" parent="globals/customColorsDelegate" pc="268440369" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="88" parent="globals/customColorsDelegate" pc="268440373" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="90" parent="globals/customColorsDelegate" pc="268440390" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="91" parent="globals/customColorsDelegate" pc="268440413" symbol="onSelect"/>
+        <entry filename="/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsDelegate.mc" id="55" lineNum="92" parent="globals/customColorsDelegate" pc="268440428" symbol="onSelect"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -442,22 +439,21 @@
         <entry endPc="268437583" name="firstDayOfWeek" stackId="3" startPc="268437421"/>
         <entry endPc="268437583" name="settings" stackId="4" startPc="268437421"/>
         <entry endPc="268437583" name="days" stackId="5" startPc="268437421"/>
-        <entry arg="true" endPc="268438813" name="item" stackId="1" startPc="268438067"/>
-        <entry endPc="268438812" name="id" stackId="2" startPc="268438070"/>
-        <entry endPc="268438812" name="time" stackId="3" startPc="268438070"/>
-        <entry endPc="268438812" name="heart" stackId="4" startPc="268438070"/>
-        <entry endPc="268438812" name="distance" stackId="5" startPc="268438070"/>
-        <entry endPc="268438812" name="battery" stackId="6" startPc="268438070"/>
-        <entry endPc="268438812" name="temp" stackId="7" startPc="268438070"/>
-        <entry endPc="268438812" name="tempSymbol" stackId="8" startPc="268438070"/>
-        <entry endPc="268438812" name="lines" stackId="9" startPc="268438070"/>
-        <entry arg="true" endPc="268439127" name="item" stackId="1" startPc="268438959"/>
-        <entry endPc="268439126" name="id" stackId="2" startPc="268438962"/>
-        <entry endPc="268439048" name="subMenu" stackId="3" startPc="268438994"/>
-        <entry endPc="268439123" name="subMenu" stackId="4" startPc="268439069"/>
-        <entry arg="true" endPc="268439778" name="s" stackId="1" startPc="268439755"/>
-        <entry arg="true" endPc="268440503" name="item" stackId="1" startPc="268439779"/>
-        <entry endPc="268440502" name="id" stackId="2" startPc="268439782"/>
+        <entry arg="true" endPc="268438742" name="item" stackId="1" startPc="268438067"/>
+        <entry endPc="268438741" name="id" stackId="2" startPc="268438070"/>
+        <entry endPc="268438741" name="time" stackId="3" startPc="268438070"/>
+        <entry endPc="268438741" name="heart" stackId="4" startPc="268438070"/>
+        <entry endPc="268438741" name="distance" stackId="5" startPc="268438070"/>
+        <entry endPc="268438741" name="battery" stackId="6" startPc="268438070"/>
+        <entry endPc="268438741" name="temp" stackId="7" startPc="268438070"/>
+        <entry endPc="268438741" name="lines" stackId="8" startPc="268438070"/>
+        <entry arg="true" endPc="268439056" name="item" stackId="1" startPc="268438888"/>
+        <entry endPc="268439055" name="id" stackId="2" startPc="268438891"/>
+        <entry endPc="268438977" name="subMenu" stackId="3" startPc="268438923"/>
+        <entry endPc="268439052" name="subMenu" stackId="4" startPc="268438998"/>
+        <entry arg="true" endPc="268439707" name="s" stackId="1" startPc="268439684"/>
+        <entry arg="true" endPc="268440432" name="item" stackId="1" startPc="268439708"/>
+        <entry endPc="268440431" name="id" stackId="2" startPc="268439711"/>
     </localVars>
     <deviceInfo deviceVersion="810ede84fd9ce09eefda5d76cb08298db48e456c" partNumber="006-B4433-00"/>
     <annotations>
@@ -643,51 +639,51 @@
         <functionEntry accessMode="public" endPc="268438066" name="initialize" parent="themesMenuDelegate" startPc="268438052">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438813" name="onSelect" parent="themesMenuDelegate" startPc="268438067">
+        <functionEntry accessMode="public" endPc="268438742" name="onSelect" parent="themesMenuDelegate" startPc="268438067">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438816" name="onStart" parent="MinGFaceApp" startPc="268438814">
+        <functionEntry accessMode="public" endPc="268438745" name="onStart" parent="MinGFaceApp" startPc="268438743">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438865" name="getSettingsView" parent="MinGFaceApp" startPc="268438817">
+        <functionEntry accessMode="public" endPc="268438794" name="getSettingsView" parent="MinGFaceApp" startPc="268438746">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438879" name="onSettingsChanged" parent="MinGFaceApp" startPc="268438866">
+        <functionEntry accessMode="public" endPc="268438808" name="onSettingsChanged" parent="MinGFaceApp" startPc="268438795">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438907" name="getInitialView" parent="MinGFaceApp" startPc="268438880">
+        <functionEntry accessMode="public" endPc="268438836" name="getInitialView" parent="MinGFaceApp" startPc="268438809">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438922" name="initialize" parent="MinGFaceApp" startPc="268438908">
+        <functionEntry accessMode="public" endPc="268438851" name="initialize" parent="MinGFaceApp" startPc="268438837">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438925" name="onStop" parent="MinGFaceApp" startPc="268438923">
+        <functionEntry accessMode="public" endPc="268438854" name="onStop" parent="MinGFaceApp" startPc="268438852">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438943" name="onBack" parent="mainMenuDelegate" startPc="268438926">
+        <functionEntry accessMode="public" endPc="268438872" name="onBack" parent="mainMenuDelegate" startPc="268438855">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438958" name="initialize" parent="mainMenuDelegate" startPc="268438944">
+        <functionEntry accessMode="public" endPc="268438887" name="initialize" parent="mainMenuDelegate" startPc="268438873">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439127" name="onSelect" parent="mainMenuDelegate" startPc="268438959">
+        <functionEntry accessMode="public" endPc="268439056" name="onSelect" parent="mainMenuDelegate" startPc="268438888">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439736" name="initialize" parent="customColorsView" startPc="268439128">
+        <functionEntry accessMode="public" endPc="268439665" name="initialize" parent="customColorsView" startPc="268439057">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439754" name="onBack" parent="customColorsDelegate" startPc="268439737">
+        <functionEntry accessMode="public" endPc="268439683" name="onBack" parent="customColorsDelegate" startPc="268439666">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439778" name="initialize" parent="customColorsDelegate" startPc="268439755">
+        <functionEntry accessMode="public" endPc="268439707" name="initialize" parent="customColorsDelegate" startPc="268439684">
             <param id="s"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440503" name="onSelect" parent="customColorsDelegate" startPc="268439779">
+        <functionEntry accessMode="public" endPc="268440432" name="onSelect" parent="customColorsDelegate" startPc="268439708">
             <param id="item"/>
             <documentation/>
         </functionEntry>

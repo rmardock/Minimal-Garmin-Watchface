@@ -26,9 +26,9 @@ _home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_8_4_11_4_stop
     }
     [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc"; @line = 14; @symbol_functiondef = [onSelect,14,13,21]; @symbol_param<0> = [item,14,22,26]; ]
     function onSelect(item) {
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_91_4_start:
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_90_4_start:
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 17 8 ]
-        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_91_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_91_4_stop" ]
+        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_90_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_90_4_stop" ]
         %id.1 = local;
         symbol [ id %id.1 17 12 14 ];
         %tmp.1 = lgetv %item;
@@ -42,416 +42,385 @@ _home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_91_4_sta
         lputv %id.1 %tmp.5;
         symbol [ id %id.1 17 12 14 ];
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 20 8 ]
-        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_91_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_91_4_stop" ]
+        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_90_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_90_4_stop" ]
         %time.2 = local;
         symbol [ time %time.2 20 12 16 ];
         %tmp.6 = "TimeColor";
         lputv %time.2 %tmp.6;
         symbol [ time %time.2 20 12 16 ];
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 21 8 ]
-        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_91_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_91_4_stop" ]
+        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_90_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_90_4_stop" ]
         %heart.3 = local;
         symbol [ heart %heart.3 21 12 17 ];
         %tmp.7 = "HeartColor";
         lputv %heart.3 %tmp.7;
         symbol [ heart %heart.3 21 12 17 ];
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 22 8 ]
-        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_91_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_91_4_stop" ]
+        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_90_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_90_4_stop" ]
         %distance.4 = local;
         symbol [ distance %distance.4 22 12 20 ];
         %tmp.8 = "DistanceColor";
         lputv %distance.4 %tmp.8;
         symbol [ distance %distance.4 22 12 20 ];
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 23 8 ]
-        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_91_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_91_4_stop" ]
+        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_90_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_90_4_stop" ]
         %battery.5 = local;
         symbol [ battery %battery.5 23 12 19 ];
         %tmp.9 = "BatteryColor";
         lputv %battery.5 %tmp.9;
         symbol [ battery %battery.5 23 12 19 ];
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 24 8 ]
-        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_91_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_91_4_stop" ]
+        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_90_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_90_4_stop" ]
         %temp.6 = local;
         symbol [ temp %temp.6 24 12 16 ];
         %tmp.10 = "TempColor";
         lputv %temp.6 %tmp.10;
         symbol [ temp %temp.6 24 12 16 ];
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 25 8 ]
-        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_91_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_91_4_stop" ]
-        %tempSymbol.7 = local;
-        symbol [ tempSymbol %tempSymbol.7 25 12 22 ];
-        %tmp.11 = "TempSymbol";
-        lputv %tempSymbol.7 %tmp.11;
-        symbol [ tempSymbol %tempSymbol.7 25 12 22 ];
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 26 8 ]
-        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_91_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_91_4_stop" ]
-        %lines.8 = local;
-        symbol [ lines %lines.8 26 12 17 ];
-        %tmp.12 = "Lines";
-        lputv %lines.8 %tmp.12;
-        symbol [ lines %lines.8 26 12 17 ];
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 29 8 ]
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_29_8_43_8_if_stmt:
-        %tmp.13 = lgetv %id.1;
-        symbol [ id %tmp.13 29 11 13 ];
-        symbol [ equals %tmp.14 29 14 20 ];
-        %tmp.14 = getv function %tmp.13 :equals;
-        %tmp.15 = "CatppuccinMocha";
-        %tmp.16 = invoke %tmp.13 %tmp.14(%tmp.15);
-        bf %tmp.16 @_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_29_8_43_8_if_end;
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_29_8_43_8_if_true:
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_30_8_43_8_start:
+        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_90_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_90_4_stop" ]
+        %lines.7 = local;
+        symbol [ lines %lines.7 25 12 17 ];
+        %tmp.11 = "Lines";
+        lputv %lines.7 %tmp.11;
+        symbol [ lines %lines.7 25 12 17 ];
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 28 8 ]
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_28_8_41_8_if_stmt:
+        %tmp.12 = lgetv %id.1;
+        symbol [ id %tmp.12 28 11 13 ];
+        symbol [ equals %tmp.13 28 14 20 ];
+        %tmp.13 = getv function %tmp.12 :equals;
+        %tmp.14 = "CatppuccinMocha";
+        %tmp.15 = invoke %tmp.12 %tmp.13(%tmp.14);
+        bf %tmp.15 @_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_28_8_41_8_if_end;
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_28_8_41_8_if_true:
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_29_8_41_8_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 31 12 ]
+        symbol [ Properties %tmp.17 31 12 22 ];
+        %tmp.17 = getv ? :Properties;
+        symbol [ setValue %tmp.18 31 23 31 ];
+        %tmp.18 = getv function %tmp.17 :setValue;
+        %tmp.19 = lgetv %time.2;
+        symbol [ time %tmp.19 31 32 36 ];
+        %tmp.20 = 0xf9e2af;
+        invoke %tmp.17 %tmp.18(%tmp.19, %tmp.20);
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 32 12 ]
-        symbol [ Properties %tmp.18 32 12 22 ];
-        %tmp.18 = getv ? :Properties;
-        symbol [ setValue %tmp.19 32 23 31 ];
-        %tmp.19 = getv function %tmp.18 :setValue;
-        %tmp.20 = lgetv %time.2;
-        symbol [ time %tmp.20 32 32 36 ];
-        %tmp.21 = 0xf9e2af;
-        invoke %tmp.18 %tmp.19(%tmp.20, %tmp.21);
+        symbol [ Properties %tmp.22 32 12 22 ];
+        %tmp.22 = getv ? :Properties;
+        symbol [ setValue %tmp.23 32 23 31 ];
+        %tmp.23 = getv function %tmp.22 :setValue;
+        %tmp.24 = lgetv %battery.5;
+        symbol [ battery %tmp.24 32 32 39 ];
+        %tmp.25 = 0xa6e3a8;
+        invoke %tmp.22 %tmp.23(%tmp.24, %tmp.25);
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 33 12 ]
-        symbol [ Properties %tmp.23 33 12 22 ];
-        %tmp.23 = getv ? :Properties;
-        symbol [ setValue %tmp.24 33 23 31 ];
-        %tmp.24 = getv function %tmp.23 :setValue;
-        %tmp.25 = lgetv %battery.5;
-        symbol [ battery %tmp.25 33 32 39 ];
-        %tmp.26 = 0xa6e3a8;
-        invoke %tmp.23 %tmp.24(%tmp.25, %tmp.26);
+        symbol [ Properties %tmp.27 33 12 22 ];
+        %tmp.27 = getv ? :Properties;
+        symbol [ setValue %tmp.28 33 23 31 ];
+        %tmp.28 = getv function %tmp.27 :setValue;
+        %tmp.29 = lgetv %heart.3;
+        symbol [ heart %tmp.29 33 32 37 ];
+        %tmp.30 = 0xf38ba8;
+        invoke %tmp.27 %tmp.28(%tmp.29, %tmp.30);
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 34 12 ]
-        symbol [ Properties %tmp.28 34 12 22 ];
-        %tmp.28 = getv ? :Properties;
-        symbol [ setValue %tmp.29 34 23 31 ];
-        %tmp.29 = getv function %tmp.28 :setValue;
-        %tmp.30 = lgetv %heart.3;
-        symbol [ heart %tmp.30 34 32 37 ];
-        %tmp.31 = 0xf38ba8;
-        invoke %tmp.28 %tmp.29(%tmp.30, %tmp.31);
+        symbol [ Properties %tmp.32 34 12 22 ];
+        %tmp.32 = getv ? :Properties;
+        symbol [ setValue %tmp.33 34 23 31 ];
+        %tmp.33 = getv function %tmp.32 :setValue;
+        %tmp.34 = lgetv %distance.4;
+        symbol [ distance %tmp.34 34 32 40 ];
+        %tmp.35 = 0xcba6f7;
+        invoke %tmp.32 %tmp.33(%tmp.34, %tmp.35);
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 35 12 ]
-        symbol [ Properties %tmp.33 35 12 22 ];
-        %tmp.33 = getv ? :Properties;
-        symbol [ setValue %tmp.34 35 23 31 ];
-        %tmp.34 = getv function %tmp.33 :setValue;
-        %tmp.35 = lgetv %distance.4;
-        symbol [ distance %tmp.35 35 32 40 ];
-        %tmp.36 = 0xcba6f7;
-        invoke %tmp.33 %tmp.34(%tmp.35, %tmp.36);
+        symbol [ Properties %tmp.37 35 12 22 ];
+        %tmp.37 = getv ? :Properties;
+        symbol [ setValue %tmp.38 35 23 31 ];
+        %tmp.38 = getv function %tmp.37 :setValue;
+        %tmp.39 = lgetv %temp.6;
+        symbol [ temp %tmp.39 35 32 36 ];
+        %tmp.40 = 0x89dceb;
+        invoke %tmp.37 %tmp.38(%tmp.39, %tmp.40);
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 36 12 ]
-        symbol [ Properties %tmp.38 36 12 22 ];
-        %tmp.38 = getv ? :Properties;
-        symbol [ setValue %tmp.39 36 23 31 ];
-        %tmp.39 = getv function %tmp.38 :setValue;
-        %tmp.40 = lgetv %temp.6;
-        symbol [ temp %tmp.40 36 32 36 ];
-        %tmp.41 = 0x89dceb;
-        invoke %tmp.38 %tmp.39(%tmp.40, %tmp.41);
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 37 12 ]
-        symbol [ Properties %tmp.43 37 12 22 ];
-        %tmp.43 = getv ? :Properties;
-        symbol [ setValue %tmp.44 37 23 31 ];
-        %tmp.44 = getv function %tmp.43 :setValue;
-        %tmp.45 = lgetv %tempSymbol.7;
-        symbol [ tempSymbol %tmp.45 37 32 42 ];
-        %tmp.46 = 0x89dceb;
-        invoke %tmp.43 %tmp.44(%tmp.45, %tmp.46);
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 38 12 ]
-        symbol [ Properties %tmp.48 38 12 22 ];
-        %tmp.48 = getv ? :Properties;
-        symbol [ setValue %tmp.49 38 23 31 ];
-        %tmp.49 = getv function %tmp.48 :setValue;
-        %tmp.50 = lgetv %lines.8;
-        symbol [ lines %tmp.50 38 32 37 ];
-        %tmp.51 = 0x2a2630;
-        invoke %tmp.48 %tmp.49(%tmp.50, %tmp.51);
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 41 12 ]
-        symbol [ WatchUi %tmp.52 41 12 19 ];
-        %tmp.52 = getm $.Toybox.WatchUi;
-        symbol [ popView %tmp.53 41 20 27 ];
-        %tmp.53 = getv function %tmp.52 :popView;
-        symbol [ WatchUi %tmp.54 41 28 35 ];
-        %tmp.54 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_RIGHT %tmp.55 41 36 47 ];
-        %tmp.55 = getv %tmp.54 :SLIDE_RIGHT;
-        invoke %tmp.52 %tmp.53(%tmp.55);
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 42 12 ]
+        symbol [ Properties %tmp.42 36 12 22 ];
+        %tmp.42 = getv ? :Properties;
+        symbol [ setValue %tmp.43 36 23 31 ];
+        %tmp.43 = getv function %tmp.42 :setValue;
+        %tmp.44 = lgetv %lines.7;
+        symbol [ lines %tmp.44 36 32 37 ];
+        %tmp.45 = 0x2a2630;
+        invoke %tmp.42 %tmp.43(%tmp.44, %tmp.45);
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 39 12 ]
+        symbol [ WatchUi %tmp.46 39 12 19 ];
+        %tmp.46 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.47 39 20 27 ];
+        %tmp.47 = getv function %tmp.46 :popView;
+        symbol [ WatchUi %tmp.48 39 28 35 ];
+        %tmp.48 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.49 39 36 47 ];
+        %tmp.49 = getv %tmp.48 :SLIDE_RIGHT;
+        invoke %tmp.46 %tmp.47(%tmp.49);
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 40 12 ]
         ret ?;
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_30_8_43_8_stop:
-        goto @_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_29_8_43_8_if_end;
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_29_8_43_8_if_end:
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 46 8 ]
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_46_8_60_8_if_stmt:
-        %tmp.56 = lgetv %id.1;
-        symbol [ id %tmp.56 46 11 13 ];
-        symbol [ equals %tmp.57 46 14 20 ];
-        %tmp.57 = getv function %tmp.56 :equals;
-        %tmp.58 = "Spooky";
-        %tmp.59 = invoke %tmp.56 %tmp.57(%tmp.58);
-        bf %tmp.59 @_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_46_8_60_8_if_end;
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_46_8_60_8_if_true:
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_47_8_60_8_start:
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_29_8_41_8_stop:
+        goto @_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_28_8_41_8_if_end;
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_28_8_41_8_if_end:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 44 8 ]
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_44_8_57_8_if_stmt:
+        %tmp.50 = lgetv %id.1;
+        symbol [ id %tmp.50 44 11 13 ];
+        symbol [ equals %tmp.51 44 14 20 ];
+        %tmp.51 = getv function %tmp.50 :equals;
+        %tmp.52 = "Spooky";
+        %tmp.53 = invoke %tmp.50 %tmp.51(%tmp.52);
+        bf %tmp.53 @_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_44_8_57_8_if_end;
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_44_8_57_8_if_true:
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_45_8_57_8_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 47 12 ]
+        symbol [ Properties %tmp.55 47 12 22 ];
+        %tmp.55 = getv ? :Properties;
+        symbol [ setValue %tmp.56 47 23 31 ];
+        %tmp.56 = getv function %tmp.55 :setValue;
+        %tmp.57 = lgetv %time.2;
+        symbol [ time %tmp.57 47 32 36 ];
+        %tmp.58 = 0xff8200;
+        invoke %tmp.55 %tmp.56(%tmp.57, %tmp.58);
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 48 12 ]
+        symbol [ Properties %tmp.60 48 12 22 ];
+        %tmp.60 = getv ? :Properties;
+        symbol [ setValue %tmp.61 48 23 31 ];
+        %tmp.61 = getv function %tmp.60 :setValue;
+        %tmp.62 = lgetv %battery.5;
+        symbol [ battery %tmp.62 48 32 39 ];
+        %tmp.63 = 0xb5ff0d;
+        invoke %tmp.60 %tmp.61(%tmp.62, %tmp.63);
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 49 12 ]
-        symbol [ Properties %tmp.61 49 12 22 ];
-        %tmp.61 = getv ? :Properties;
-        symbol [ setValue %tmp.62 49 23 31 ];
-        %tmp.62 = getv function %tmp.61 :setValue;
-        %tmp.63 = lgetv %time.2;
-        symbol [ time %tmp.63 49 32 36 ];
-        %tmp.64 = 0xff8200;
-        invoke %tmp.61 %tmp.62(%tmp.63, %tmp.64);
+        symbol [ Properties %tmp.65 49 12 22 ];
+        %tmp.65 = getv ? :Properties;
+        symbol [ setValue %tmp.66 49 23 31 ];
+        %tmp.66 = getv function %tmp.65 :setValue;
+        %tmp.67 = lgetv %distance.4;
+        symbol [ distance %tmp.67 49 32 40 ];
+        %tmp.68 = 0x800bf0;
+        invoke %tmp.65 %tmp.66(%tmp.67, %tmp.68);
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 50 12 ]
-        symbol [ Properties %tmp.66 50 12 22 ];
-        %tmp.66 = getv ? :Properties;
-        symbol [ setValue %tmp.67 50 23 31 ];
-        %tmp.67 = getv function %tmp.66 :setValue;
-        %tmp.68 = lgetv %battery.5;
-        symbol [ battery %tmp.68 50 32 39 ];
-        %tmp.69 = 0xb5ff0d;
-        invoke %tmp.66 %tmp.67(%tmp.68, %tmp.69);
+        symbol [ Properties %tmp.70 50 12 22 ];
+        %tmp.70 = getv ? :Properties;
+        symbol [ setValue %tmp.71 50 23 31 ];
+        %tmp.71 = getv function %tmp.70 :setValue;
+        %tmp.72 = lgetv %temp.6;
+        symbol [ temp %tmp.72 50 32 36 ];
+        %tmp.73 = 0xb5ff0d;
+        invoke %tmp.70 %tmp.71(%tmp.72, %tmp.73);
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 51 12 ]
-        symbol [ Properties %tmp.71 51 12 22 ];
-        %tmp.71 = getv ? :Properties;
-        symbol [ setValue %tmp.72 51 23 31 ];
-        %tmp.72 = getv function %tmp.71 :setValue;
-        %tmp.73 = lgetv %distance.4;
-        symbol [ distance %tmp.73 51 32 40 ];
-        %tmp.74 = 0x800bf0;
-        invoke %tmp.71 %tmp.72(%tmp.73, %tmp.74);
+        symbol [ Properties %tmp.75 51 12 22 ];
+        %tmp.75 = getv ? :Properties;
+        symbol [ setValue %tmp.76 51 23 31 ];
+        %tmp.76 = getv function %tmp.75 :setValue;
+        %tmp.77 = lgetv %heart.3;
+        symbol [ heart %tmp.77 51 32 37 ];
+        %tmp.78 = 0xb5ff0d;
+        invoke %tmp.75 %tmp.76(%tmp.77, %tmp.78);
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 52 12 ]
-        symbol [ Properties %tmp.76 52 12 22 ];
-        %tmp.76 = getv ? :Properties;
-        symbol [ setValue %tmp.77 52 23 31 ];
-        %tmp.77 = getv function %tmp.76 :setValue;
-        %tmp.78 = lgetv %temp.6;
-        symbol [ temp %tmp.78 52 32 36 ];
-        %tmp.79 = 0xb5ff0d;
-        invoke %tmp.76 %tmp.77(%tmp.78, %tmp.79);
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 53 12 ]
-        symbol [ Properties %tmp.81 53 12 22 ];
-        %tmp.81 = getv ? :Properties;
-        symbol [ setValue %tmp.82 53 23 31 ];
-        %tmp.82 = getv function %tmp.81 :setValue;
-        %tmp.83 = lgetv %tempSymbol.7;
-        symbol [ tempSymbol %tmp.83 53 32 42 ];
-        %tmp.84 = 0xb5ff0d;
-        invoke %tmp.81 %tmp.82(%tmp.83, %tmp.84);
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 54 12 ]
-        symbol [ Properties %tmp.86 54 12 22 ];
-        %tmp.86 = getv ? :Properties;
-        symbol [ setValue %tmp.87 54 23 31 ];
-        %tmp.87 = getv function %tmp.86 :setValue;
-        %tmp.88 = lgetv %heart.3;
-        symbol [ heart %tmp.88 54 32 37 ];
-        %tmp.89 = 0xb5ff0d;
-        invoke %tmp.86 %tmp.87(%tmp.88, %tmp.89);
+        symbol [ Properties %tmp.80 52 12 22 ];
+        %tmp.80 = getv ? :Properties;
+        symbol [ setValue %tmp.81 52 23 31 ];
+        %tmp.81 = getv function %tmp.80 :setValue;
+        %tmp.82 = lgetv %lines.7;
+        symbol [ lines %tmp.82 52 32 37 ];
+        %tmp.83 = 0x2a2630;
+        invoke %tmp.80 %tmp.81(%tmp.82, %tmp.83);
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 55 12 ]
-        symbol [ Properties %tmp.91 55 12 22 ];
-        %tmp.91 = getv ? :Properties;
-        symbol [ setValue %tmp.92 55 23 31 ];
-        %tmp.92 = getv function %tmp.91 :setValue;
-        %tmp.93 = lgetv %lines.8;
-        symbol [ lines %tmp.93 55 32 37 ];
-        %tmp.94 = 0x2a2630;
-        invoke %tmp.91 %tmp.92(%tmp.93, %tmp.94);
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 58 12 ]
-        symbol [ WatchUi %tmp.95 58 12 19 ];
-        %tmp.95 = getm $.Toybox.WatchUi;
-        symbol [ popView %tmp.96 58 20 27 ];
-        %tmp.96 = getv function %tmp.95 :popView;
-        symbol [ WatchUi %tmp.97 58 28 35 ];
-        %tmp.97 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_RIGHT %tmp.98 58 36 47 ];
-        %tmp.98 = getv %tmp.97 :SLIDE_RIGHT;
-        invoke %tmp.95 %tmp.96(%tmp.98);
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 59 12 ]
+        symbol [ WatchUi %tmp.84 55 12 19 ];
+        %tmp.84 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.85 55 20 27 ];
+        %tmp.85 = getv function %tmp.84 :popView;
+        symbol [ WatchUi %tmp.86 55 28 35 ];
+        %tmp.86 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.87 55 36 47 ];
+        %tmp.87 = getv %tmp.86 :SLIDE_RIGHT;
+        invoke %tmp.84 %tmp.85(%tmp.87);
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 56 12 ]
         ret ?;
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_47_8_60_8_stop:
-        goto @_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_46_8_60_8_if_end;
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_46_8_60_8_if_end:
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 63 8 ]
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_63_8_73_8_if_stmt:
-        %tmp.99 = lgetv %id.1;
-        symbol [ id %tmp.99 63 11 13 ];
-        symbol [ equals %tmp.100 63 14 20 ];
-        %tmp.100 = getv function %tmp.99 :equals;
-        %tmp.101 = "Neon";
-        %tmp.102 = invoke %tmp.99 %tmp.100(%tmp.101);
-        bf %tmp.102 @_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_63_8_73_8_if_end;
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_63_8_73_8_if_true:
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_64_8_73_8_start:
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_45_8_57_8_stop:
+        goto @_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_44_8_57_8_if_end;
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_44_8_57_8_if_end:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 60 8 ]
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_60_8_73_8_if_stmt:
+        %tmp.88 = lgetv %id.1;
+        symbol [ id %tmp.88 60 11 13 ];
+        symbol [ equals %tmp.89 60 14 20 ];
+        %tmp.89 = getv function %tmp.88 :equals;
+        %tmp.90 = "Neon";
+        %tmp.91 = invoke %tmp.88 %tmp.89(%tmp.90);
+        bf %tmp.91 @_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_60_8_73_8_if_end;
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_60_8_73_8_if_true:
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_61_8_73_8_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 63 12 ]
+        symbol [ Properties %tmp.93 63 12 22 ];
+        %tmp.93 = getv ? :Properties;
+        symbol [ setValue %tmp.94 63 23 31 ];
+        %tmp.94 = getv function %tmp.93 :setValue;
+        %tmp.95 = lgetv %time.2;
+        symbol [ time %tmp.95 63 32 36 ];
+        %tmp.96 = 0xe4ff52;
+        invoke %tmp.93 %tmp.94(%tmp.95, %tmp.96);
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 64 12 ]
+        symbol [ Properties %tmp.98 64 12 22 ];
+        %tmp.98 = getv ? :Properties;
+        symbol [ setValue %tmp.99 64 23 31 ];
+        %tmp.99 = getv function %tmp.98 :setValue;
+        %tmp.100 = lgetv %battery.5;
+        symbol [ battery %tmp.100 64 32 39 ];
+        %tmp.101 = 0xe4ff52;
+        invoke %tmp.98 %tmp.99(%tmp.100, %tmp.101);
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 65 12 ]
+        symbol [ Properties %tmp.103 65 12 22 ];
+        %tmp.103 = getv ? :Properties;
+        symbol [ setValue %tmp.104 65 23 31 ];
+        %tmp.104 = getv function %tmp.103 :setValue;
+        %tmp.105 = lgetv %distance.4;
+        symbol [ distance %tmp.105 65 32 40 ];
+        %tmp.106 = 0xe4ff52;
+        invoke %tmp.103 %tmp.104(%tmp.105, %tmp.106);
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 66 12 ]
-        symbol [ Properties %tmp.104 66 12 22 ];
-        %tmp.104 = getv ? :Properties;
-        symbol [ setValue %tmp.105 66 23 31 ];
-        %tmp.105 = getv function %tmp.104 :setValue;
-        %tmp.106 = lgetv %time.2;
-        symbol [ time %tmp.106 66 32 36 ];
-        %tmp.107 = 0xe4ff52;
-        invoke %tmp.104 %tmp.105(%tmp.106, %tmp.107);
+        symbol [ Properties %tmp.108 66 12 22 ];
+        %tmp.108 = getv ? :Properties;
+        symbol [ setValue %tmp.109 66 23 31 ];
+        %tmp.109 = getv function %tmp.108 :setValue;
+        %tmp.110 = lgetv %temp.6;
+        symbol [ temp %tmp.110 66 32 36 ];
+        %tmp.111 = 0xe4ff52;
+        invoke %tmp.108 %tmp.109(%tmp.110, %tmp.111);
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 67 12 ]
-        symbol [ Properties %tmp.109 67 12 22 ];
-        %tmp.109 = getv ? :Properties;
-        symbol [ setValue %tmp.110 67 23 31 ];
-        %tmp.110 = getv function %tmp.109 :setValue;
-        %tmp.111 = lgetv %battery.5;
-        symbol [ battery %tmp.111 67 32 39 ];
-        %tmp.112 = 0xe4ff52;
-        invoke %tmp.109 %tmp.110(%tmp.111, %tmp.112);
+        symbol [ Properties %tmp.113 67 12 22 ];
+        %tmp.113 = getv ? :Properties;
+        symbol [ setValue %tmp.114 67 23 31 ];
+        %tmp.114 = getv function %tmp.113 :setValue;
+        %tmp.115 = lgetv %heart.3;
+        symbol [ heart %tmp.115 67 32 37 ];
+        %tmp.116 = 0xe4ff52;
+        invoke %tmp.113 %tmp.114(%tmp.115, %tmp.116);
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 68 12 ]
-        symbol [ Properties %tmp.114 68 12 22 ];
-        %tmp.114 = getv ? :Properties;
-        symbol [ setValue %tmp.115 68 23 31 ];
-        %tmp.115 = getv function %tmp.114 :setValue;
-        %tmp.116 = lgetv %distance.4;
-        symbol [ distance %tmp.116 68 32 40 ];
-        %tmp.117 = 0xe4ff52;
-        invoke %tmp.114 %tmp.115(%tmp.116, %tmp.117);
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 69 12 ]
-        symbol [ Properties %tmp.119 69 12 22 ];
-        %tmp.119 = getv ? :Properties;
-        symbol [ setValue %tmp.120 69 23 31 ];
-        %tmp.120 = getv function %tmp.119 :setValue;
-        %tmp.121 = lgetv %temp.6;
-        symbol [ temp %tmp.121 69 32 36 ];
-        %tmp.122 = 0xe4ff52;
-        invoke %tmp.119 %tmp.120(%tmp.121, %tmp.122);
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 70 12 ]
-        symbol [ Properties %tmp.124 70 12 22 ];
-        %tmp.124 = getv ? :Properties;
-        symbol [ setValue %tmp.125 70 23 31 ];
-        %tmp.125 = getv function %tmp.124 :setValue;
-        %tmp.126 = lgetv %tempSymbol.7;
-        symbol [ tempSymbol %tmp.126 70 32 42 ];
-        %tmp.127 = 0xe4ff52;
-        invoke %tmp.124 %tmp.125(%tmp.126, %tmp.127);
+        symbol [ Properties %tmp.118 68 12 22 ];
+        %tmp.118 = getv ? :Properties;
+        symbol [ setValue %tmp.119 68 23 31 ];
+        %tmp.119 = getv function %tmp.118 :setValue;
+        %tmp.120 = lgetv %lines.7;
+        symbol [ lines %tmp.120 68 32 37 ];
+        %tmp.121 = 0x2a2630;
+        invoke %tmp.118 %tmp.119(%tmp.120, %tmp.121);
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 71 12 ]
-        symbol [ Properties %tmp.129 71 12 22 ];
-        %tmp.129 = getv ? :Properties;
-        symbol [ setValue %tmp.130 71 23 31 ];
-        %tmp.130 = getv function %tmp.129 :setValue;
-        %tmp.131 = lgetv %heart.3;
-        symbol [ heart %tmp.131 71 32 37 ];
-        %tmp.132 = 0xe4ff52;
-        invoke %tmp.129 %tmp.130(%tmp.131, %tmp.132);
+        symbol [ WatchUi %tmp.122 71 12 19 ];
+        %tmp.122 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.123 71 20 27 ];
+        %tmp.123 = getv function %tmp.122 :popView;
+        symbol [ WatchUi %tmp.124 71 28 35 ];
+        %tmp.124 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.125 71 36 47 ];
+        %tmp.125 = getv %tmp.124 :SLIDE_RIGHT;
+        invoke %tmp.122 %tmp.123(%tmp.125);
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 72 12 ]
-        symbol [ Properties %tmp.134 72 12 22 ];
-        %tmp.134 = getv ? :Properties;
-        symbol [ setValue %tmp.135 72 23 31 ];
-        %tmp.135 = getv function %tmp.134 :setValue;
-        %tmp.136 = lgetv %lines.8;
-        symbol [ lines %tmp.136 72 32 37 ];
-        %tmp.137 = 0x2a2630;
-        invoke %tmp.134 %tmp.135(%tmp.136, %tmp.137);
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_64_8_73_8_stop:
-        goto @_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_63_8_73_8_if_end;
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_63_8_73_8_if_end:
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 76 8 ]
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_76_8_90_8_if_stmt:
-        %tmp.138 = lgetv %id.1;
-        symbol [ id %tmp.138 76 11 13 ];
-        symbol [ equals %tmp.139 76 14 20 ];
-        %tmp.139 = getv function %tmp.138 :equals;
-        %tmp.140 = "ElectricBlue";
-        %tmp.141 = invoke %tmp.138 %tmp.139(%tmp.140);
-        bf %tmp.141 @_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_76_8_90_8_if_end;
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_76_8_90_8_if_true:
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_77_8_90_8_start:
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 79 12 ]
-        symbol [ Properties %tmp.143 79 12 22 ];
-        %tmp.143 = getv ? :Properties;
-        symbol [ setValue %tmp.144 79 23 31 ];
-        %tmp.144 = getv function %tmp.143 :setValue;
-        %tmp.145 = lgetv %time.2;
-        symbol [ time %tmp.145 79 32 36 ];
-        %tmp.146 = 0x00aaff;
-        invoke %tmp.143 %tmp.144(%tmp.145, %tmp.146);
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 80 12 ]
-        symbol [ Properties %tmp.148 80 12 22 ];
-        %tmp.148 = getv ? :Properties;
-        symbol [ setValue %tmp.149 80 23 31 ];
-        %tmp.149 = getv function %tmp.148 :setValue;
-        %tmp.150 = lgetv %battery.5;
-        symbol [ battery %tmp.150 80 32 39 ];
-        %tmp.151 = 0x00ff00;
-        invoke %tmp.148 %tmp.149(%tmp.150, %tmp.151);
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 81 12 ]
-        symbol [ Properties %tmp.153 81 12 22 ];
-        %tmp.153 = getv ? :Properties;
-        symbol [ setValue %tmp.154 81 23 31 ];
-        %tmp.154 = getv function %tmp.153 :setValue;
-        %tmp.155 = lgetv %distance.4;
-        symbol [ distance %tmp.155 81 32 40 ];
-        %tmp.156 = 0xffffff;
-        invoke %tmp.153 %tmp.154(%tmp.155, %tmp.156);
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 82 12 ]
-        symbol [ Properties %tmp.158 82 12 22 ];
-        %tmp.158 = getv ? :Properties;
-        symbol [ setValue %tmp.159 82 23 31 ];
-        %tmp.159 = getv function %tmp.158 :setValue;
-        %tmp.160 = lgetv %temp.6;
-        symbol [ temp %tmp.160 82 32 36 ];
-        %tmp.161 = 0x00ff00;
-        invoke %tmp.158 %tmp.159(%tmp.160, %tmp.161);
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 83 12 ]
-        symbol [ Properties %tmp.163 83 12 22 ];
-        %tmp.163 = getv ? :Properties;
-        symbol [ setValue %tmp.164 83 23 31 ];
-        %tmp.164 = getv function %tmp.163 :setValue;
-        %tmp.165 = lgetv %tempSymbol.7;
-        symbol [ tempSymbol %tmp.165 83 32 42 ];
-        %tmp.166 = 0x00ff00;
-        invoke %tmp.163 %tmp.164(%tmp.165, %tmp.166);
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 84 12 ]
-        symbol [ Properties %tmp.168 84 12 22 ];
-        %tmp.168 = getv ? :Properties;
-        symbol [ setValue %tmp.169 84 23 31 ];
-        %tmp.169 = getv function %tmp.168 :setValue;
-        %tmp.170 = lgetv %heart.3;
-        symbol [ heart %tmp.170 84 32 37 ];
-        %tmp.171 = 0x00ff00;
-        invoke %tmp.168 %tmp.169(%tmp.170, %tmp.171);
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 85 12 ]
-        symbol [ Properties %tmp.173 85 12 22 ];
-        %tmp.173 = getv ? :Properties;
-        symbol [ setValue %tmp.174 85 23 31 ];
-        %tmp.174 = getv function %tmp.173 :setValue;
-        %tmp.175 = lgetv %lines.8;
-        symbol [ lines %tmp.175 85 32 37 ];
-        %tmp.176 = 0x2a2630;
-        invoke %tmp.173 %tmp.174(%tmp.175, %tmp.176);
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 88 12 ]
-        symbol [ WatchUi %tmp.177 88 12 19 ];
-        %tmp.177 = getm $.Toybox.WatchUi;
-        symbol [ popView %tmp.178 88 20 27 ];
-        %tmp.178 = getv function %tmp.177 :popView;
-        symbol [ WatchUi %tmp.179 88 28 35 ];
-        %tmp.179 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_RIGHT %tmp.180 88 36 47 ];
-        %tmp.180 = getv %tmp.179 :SLIDE_RIGHT;
-        invoke %tmp.177 %tmp.178(%tmp.180);
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 89 12 ]
         ret ?;
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_77_8_90_8_stop:
-        goto @_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_76_8_90_8_if_end;
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_76_8_90_8_if_end:
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_91_4_stop:
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_61_8_73_8_stop:
+        goto @_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_60_8_73_8_if_end;
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_60_8_73_8_if_end:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 76 8 ]
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_76_8_89_8_if_stmt:
+        %tmp.126 = lgetv %id.1;
+        symbol [ id %tmp.126 76 11 13 ];
+        symbol [ equals %tmp.127 76 14 20 ];
+        %tmp.127 = getv function %tmp.126 :equals;
+        %tmp.128 = "ElectricBlue";
+        %tmp.129 = invoke %tmp.126 %tmp.127(%tmp.128);
+        bf %tmp.129 @_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_76_8_89_8_if_end;
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_76_8_89_8_if_true:
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_77_8_89_8_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 79 12 ]
+        symbol [ Properties %tmp.131 79 12 22 ];
+        %tmp.131 = getv ? :Properties;
+        symbol [ setValue %tmp.132 79 23 31 ];
+        %tmp.132 = getv function %tmp.131 :setValue;
+        %tmp.133 = lgetv %time.2;
+        symbol [ time %tmp.133 79 32 36 ];
+        %tmp.134 = 0x00aaff;
+        invoke %tmp.131 %tmp.132(%tmp.133, %tmp.134);
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 80 12 ]
+        symbol [ Properties %tmp.136 80 12 22 ];
+        %tmp.136 = getv ? :Properties;
+        symbol [ setValue %tmp.137 80 23 31 ];
+        %tmp.137 = getv function %tmp.136 :setValue;
+        %tmp.138 = lgetv %battery.5;
+        symbol [ battery %tmp.138 80 32 39 ];
+        %tmp.139 = 0x00ff00;
+        invoke %tmp.136 %tmp.137(%tmp.138, %tmp.139);
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 81 12 ]
+        symbol [ Properties %tmp.141 81 12 22 ];
+        %tmp.141 = getv ? :Properties;
+        symbol [ setValue %tmp.142 81 23 31 ];
+        %tmp.142 = getv function %tmp.141 :setValue;
+        %tmp.143 = lgetv %distance.4;
+        symbol [ distance %tmp.143 81 32 40 ];
+        %tmp.144 = 0x00ff00;
+        invoke %tmp.141 %tmp.142(%tmp.143, %tmp.144);
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 82 12 ]
+        symbol [ Properties %tmp.146 82 12 22 ];
+        %tmp.146 = getv ? :Properties;
+        symbol [ setValue %tmp.147 82 23 31 ];
+        %tmp.147 = getv function %tmp.146 :setValue;
+        %tmp.148 = lgetv %temp.6;
+        symbol [ temp %tmp.148 82 32 36 ];
+        %tmp.149 = 0x00ff00;
+        invoke %tmp.146 %tmp.147(%tmp.148, %tmp.149);
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 83 12 ]
+        symbol [ Properties %tmp.151 83 12 22 ];
+        %tmp.151 = getv ? :Properties;
+        symbol [ setValue %tmp.152 83 23 31 ];
+        %tmp.152 = getv function %tmp.151 :setValue;
+        %tmp.153 = lgetv %heart.3;
+        symbol [ heart %tmp.153 83 32 37 ];
+        %tmp.154 = 0x00ff00;
+        invoke %tmp.151 %tmp.152(%tmp.153, %tmp.154);
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 84 12 ]
+        symbol [ Properties %tmp.156 84 12 22 ];
+        %tmp.156 = getv ? :Properties;
+        symbol [ setValue %tmp.157 84 23 31 ];
+        %tmp.157 = getv function %tmp.156 :setValue;
+        %tmp.158 = lgetv %lines.7;
+        symbol [ lines %tmp.158 84 32 37 ];
+        %tmp.159 = 0x2a2630;
+        invoke %tmp.156 %tmp.157(%tmp.158, %tmp.159);
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 87 12 ]
+        symbol [ WatchUi %tmp.160 87 12 19 ];
+        %tmp.160 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.161 87 20 27 ];
+        %tmp.161 = getv function %tmp.160 :popView;
+        symbol [ WatchUi %tmp.162 87 28 35 ];
+        %tmp.162 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.163 87 36 47 ];
+        %tmp.163 = getv %tmp.162 :SLIDE_RIGHT;
+        invoke %tmp.160 %tmp.161(%tmp.163);
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 88 12 ]
+        ret ?;
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_77_8_89_8_stop:
+        goto @_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_76_8_89_8_if_end;
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_76_8_89_8_if_end:
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_15_4_90_4_stop:
     }
-    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc"; @line = 94; @symbol_functiondef = [onBack,94,13,19]; ]
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc"; @line = 93; @symbol_functiondef = [onBack,93,13,19]; ]
     function onBack() {
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_95_4_98_4_start:
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 96 8 ]
-        symbol [ WatchUi %tmp.1 96 8 15 ];
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_94_4_97_4_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 95 8 ]
+        symbol [ WatchUi %tmp.1 95 8 15 ];
         %tmp.1 = getm $.Toybox.WatchUi;
-        symbol [ popView %tmp.2 96 16 23 ];
+        symbol [ popView %tmp.2 95 16 23 ];
         %tmp.2 = getv function %tmp.1 :popView;
-        symbol [ WatchUi %tmp.3 96 24 31 ];
+        symbol [ WatchUi %tmp.3 95 24 31 ];
         %tmp.3 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_RIGHT %tmp.4 96 32 43 ];
+        symbol [ SLIDE_RIGHT %tmp.4 95 32 43 ];
         %tmp.4 = getv %tmp.3 :SLIDE_RIGHT;
         invoke %tmp.1 %tmp.2(%tmp.4);
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 97 8 ]
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc" 96 8 ]
         ret ?;
-_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_95_4_98_4_stop:
+_home_ry_dev_Minimal_Garmin_Watchface_source_themesMenuDelegate_mc_94_4_97_4_stop:
     }
 }
 [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/themesMenuDelegate.mc"; @line = 1; ]

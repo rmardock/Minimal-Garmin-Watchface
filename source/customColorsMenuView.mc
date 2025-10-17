@@ -7,7 +7,7 @@ class customColorsMenuView extends WatchUi.Menu2 {
     function initialize() 
     {
         // Create menu
-        Menu2.initialize({:title=>"CustomColors"});
+        Menu2.initialize({:title=>"Custom Colors"});
 
         // Add menu items
         Menu2.addItem(new MenuItem("Time Color", null, "TimeColor", null));
