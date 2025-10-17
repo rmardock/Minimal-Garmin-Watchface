@@ -1,0 +1,92 @@
+[ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsMenuDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
+import Toybox.Application;
+[ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsMenuDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
+import Toybox.System;
+[ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsMenuDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsMenuDelegate.mc"; @line = 5; @symbol_classdef = [customColorsMenuDelegate,5,6,30]; @symbol_extends<0> = [WatchUi,5,39,46]; @symbol_extends<1> = [Menu2InputDelegate,5,47,65]; ]
+class customColorsMenuDelegate extends WatchUi.Menu2InputDelegate {
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsMenuDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsMenuDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsMenuDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    function initialize() as Void {
+_home_ry_dev_Minimal_Garmin_Watchface_source_customColorsMenuDelegate_mc_8_4_11_4_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsMenuDelegate.mc" 10 8 ]
+        symbol [ Menu2InputDelegate %tmp.2 10 8 26 ];
+        %tmp.2 = getv ? :Menu2InputDelegate;
+        symbol [ initialize %tmp.3 10 27 37 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_home_ry_dev_Minimal_Garmin_Watchface_source_customColorsMenuDelegate_mc_8_4_11_4_stop:
+    }
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsMenuDelegate.mc"; @line = 13; @symbol_functiondef = [onSelect,13,13,21]; @symbol_param<0> = [item,13,22,26]; ]
+    function onSelect(item) {
+_home_ry_dev_Minimal_Garmin_Watchface_source_customColorsMenuDelegate_mc_14_4_21_4_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsMenuDelegate.mc" 16 8 ]
+        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_customColorsMenuDelegate_mc_14_4_21_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_customColorsMenuDelegate_mc_14_4_21_4_stop" ]
+        %id.1 = local;
+        symbol [ id %id.1 16 12 14 ];
+        %tmp.1 = lgetv %item;
+        symbol [ item %tmp.1 16 17 21 ];
+        symbol [ getId %tmp.2 16 22 27 ];
+        %tmp.2 = getv function %tmp.1 :getId;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ toString %tmp.4 16 30 38 ];
+        %tmp.4 = getv function %tmp.3 :toString;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        lputv %id.1 %tmp.5;
+        symbol [ id %id.1 16 12 14 ];
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsMenuDelegate.mc" 19 8 ]
+        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_customColorsMenuDelegate_mc_14_4_21_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_customColorsMenuDelegate_mc_14_4_21_4_stop" ]
+        %subMenu.2 = local;
+        symbol [ subMenu %subMenu.2 19 12 19 ];
+        symbol [ customColorsView %tmp.9 19 26 42 ];
+        %tmp.9 = getv ? :customColorsView;
+        %tmp.6 = newc %tmp.9 ();
+        lputv %subMenu.2 %tmp.6;
+        symbol [ subMenu %subMenu.2 19 12 19 ];
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsMenuDelegate.mc" 20 8 ]
+        symbol [ WatchUi %tmp.10 20 8 15 ];
+        %tmp.10 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.11 20 16 24 ];
+        %tmp.11 = getv function %tmp.10 :pushView;
+        %tmp.12 = lgetv %subMenu.2;
+        symbol [ subMenu %tmp.12 20 25 32 ];
+        symbol [ customColorsDelegate %tmp.16 20 38 58 ];
+        %tmp.16 = getv ? :customColorsDelegate;
+        %tmp.17 = lgetv %id.1;
+        symbol [ id %tmp.17 20 59 61 ];
+        %tmp.13 = newc %tmp.16 (%tmp.17);
+        symbol [ WatchUi %tmp.18 20 64 71 ];
+        %tmp.18 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_LEFT %tmp.19 20 72 82 ];
+        %tmp.19 = getv %tmp.18 :SLIDE_LEFT;
+        invoke %tmp.10 %tmp.11(%tmp.12, %tmp.13, %tmp.19);
+_home_ry_dev_Minimal_Garmin_Watchface_source_customColorsMenuDelegate_mc_14_4_21_4_stop:
+    }
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsMenuDelegate.mc"; @line = 23; @symbol_functiondef = [onBack,23,13,19]; ]
+    function onBack() {
+_home_ry_dev_Minimal_Garmin_Watchface_source_customColorsMenuDelegate_mc_24_4_27_4_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsMenuDelegate.mc" 25 8 ]
+        symbol [ WatchUi %tmp.1 25 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.2 25 16 23 ];
+        %tmp.2 = getv function %tmp.1 :popView;
+        symbol [ WatchUi %tmp.3 25 24 31 ];
+        %tmp.3 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.4 25 32 43 ];
+        %tmp.4 = getv %tmp.3 :SLIDE_RIGHT;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsMenuDelegate.mc" 26 8 ]
+        ret ?;
+_home_ry_dev_Minimal_Garmin_Watchface_source_customColorsMenuDelegate_mc_24_4_27_4_stop:
+    }
+}
+[ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/customColorsMenuDelegate.mc"; @line = 1; ]
+<init> {
+}

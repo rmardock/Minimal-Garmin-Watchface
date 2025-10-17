@@ -1,0 +1,348 @@
+{
+  "settings" : [ {
+    "group" : {
+      "id" : "elementColors",
+      "title" : "elementColorGroup",
+      "description" : "elementColorGroupDescription",
+      "enableWhenTrue" : null,
+      "entries" : [ {
+        "key" : "TimeColor",
+        "valueType" : "number",
+        "defaultValue" : 15007570,
+        "configTitle" : "TimeColor",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "CatppuccinYellow",
+          "value" : 16331439
+        }, {
+          "display" : "CatppuccinRed",
+          "value" : 15961000
+        }, {
+          "display" : "CatppuccinGreen",
+          "value" : 10937256
+        }, {
+          "display" : "CatppuccinBlue",
+          "value" : 9034987
+        }, {
+          "display" : "CatppuccinPurple",
+          "value" : 13346551
+        }, {
+          "display" : "White",
+          "value" : 16777215
+        }, {
+          "display" : "Blue",
+          "value" : 43775
+        }, {
+          "display" : "Green",
+          "value" : 65280
+        }, {
+          "display" : "SpookyOrange",
+          "value" : 16744960
+        }, {
+          "display" : "SpookyGreen",
+          "value" : 11927309
+        }, {
+          "display" : "SpookyPurple",
+          "value" : 8391664
+        }, {
+          "display" : "Lime",
+          "value" : 15007570
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "BatteryColor",
+        "valueType" : "number",
+        "defaultValue" : 15007570,
+        "configTitle" : "BatteryColor",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "CatppuccinYellow",
+          "value" : 16331439
+        }, {
+          "display" : "CatppuccinRed",
+          "value" : 15961000
+        }, {
+          "display" : "CatppuccinGreen",
+          "value" : 10937256
+        }, {
+          "display" : "CatppuccinBlue",
+          "value" : 9034987
+        }, {
+          "display" : "CatppuccinPurple",
+          "value" : 13346551
+        }, {
+          "display" : "White",
+          "value" : 16777215
+        }, {
+          "display" : "Blue",
+          "value" : 43775
+        }, {
+          "display" : "Green",
+          "value" : 65280
+        }, {
+          "display" : "SpookyOrange",
+          "value" : 16744960
+        }, {
+          "display" : "SpookyGreen",
+          "value" : 11927309
+        }, {
+          "display" : "SpookyPurple",
+          "value" : 8391664
+        }, {
+          "display" : "Lime",
+          "value" : 15007570
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "HeartColor",
+        "valueType" : "number",
+        "defaultValue" : 15007570,
+        "configTitle" : "HeartColor",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "CatppuccinYellow",
+          "value" : 16331439
+        }, {
+          "display" : "CatppuccinRed",
+          "value" : 15961000
+        }, {
+          "display" : "CatppuccinGreen",
+          "value" : 10937256
+        }, {
+          "display" : "CatppuccinBlue",
+          "value" : 9034987
+        }, {
+          "display" : "CatppuccinPurple",
+          "value" : 13346551
+        }, {
+          "display" : "White",
+          "value" : 16777215
+        }, {
+          "display" : "Blue",
+          "value" : 43775
+        }, {
+          "display" : "Green",
+          "value" : 65280
+        }, {
+          "display" : "SpookyOrange",
+          "value" : 16744960
+        }, {
+          "display" : "SpookyGreen",
+          "value" : 11927309
+        }, {
+          "display" : "SpookyPurple",
+          "value" : 8391664
+        }, {
+          "display" : "Lime",
+          "value" : 15007570
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "DistanceColor",
+        "valueType" : "number",
+        "defaultValue" : 15007570,
+        "configTitle" : "DistanceColor",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "CatppuccinYellow",
+          "value" : 16331439
+        }, {
+          "display" : "CatppuccinRed",
+          "value" : 15961000
+        }, {
+          "display" : "CatppuccinGreen",
+          "value" : 10937256
+        }, {
+          "display" : "CatppuccinBlue",
+          "value" : 9034987
+        }, {
+          "display" : "CatppuccinPurple",
+          "value" : 13346551
+        }, {
+          "display" : "White",
+          "value" : 16777215
+        }, {
+          "display" : "Blue",
+          "value" : 43775
+        }, {
+          "display" : "Green",
+          "value" : 65280
+        }, {
+          "display" : "SpookyOrange",
+          "value" : 16744960
+        }, {
+          "display" : "SpookyGreen",
+          "value" : 11927309
+        }, {
+          "display" : "SpookyPurple",
+          "value" : 8391664
+        }, {
+          "display" : "Lime",
+          "value" : 15007570
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "TempColor",
+        "valueType" : "number",
+        "defaultValue" : 15007570,
+        "configTitle" : "TempColor",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "CatppuccinYellow",
+          "value" : 16331439
+        }, {
+          "display" : "CatppuccinRed",
+          "value" : 15961000
+        }, {
+          "display" : "CatppuccinGreen",
+          "value" : 10937256
+        }, {
+          "display" : "CatppuccinBlue",
+          "value" : 9034987
+        }, {
+          "display" : "CatppuccinPurple",
+          "value" : 13346551
+        }, {
+          "display" : "White",
+          "value" : 16777215
+        }, {
+          "display" : "Blue",
+          "value" : 43775
+        }, {
+          "display" : "Green",
+          "value" : 65280
+        }, {
+          "display" : "SpookyOrange",
+          "value" : 16744960
+        }, {
+          "display" : "SpookyGreen",
+          "value" : 11927309
+        }, {
+          "display" : "SpookyPurple",
+          "value" : 8391664
+        }, {
+          "display" : "Lime",
+          "value" : 15007570
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      }, {
+        "key" : "Lines",
+        "valueType" : "number",
+        "defaultValue" : 2762288,
+        "configTitle" : "Lines",
+        "configPrompt" : null,
+        "configType" : "list",
+        "configError" : null,
+        "configHelpUrl" : null,
+        "configReadonly" : false,
+        "configRequired" : false,
+        "configOptions" : [ {
+          "display" : "CatppuccinYellow",
+          "value" : 16331439
+        }, {
+          "display" : "CatppuccinRed",
+          "value" : 15961000
+        }, {
+          "display" : "CatppuccinGreen",
+          "value" : 10937256
+        }, {
+          "display" : "CatppuccinBlue",
+          "value" : 9034987
+        }, {
+          "display" : "CatppuccinPurple",
+          "value" : 13346551
+        }, {
+          "display" : "White",
+          "value" : 16777215
+        }, {
+          "display" : "Blue",
+          "value" : 43775
+        }, {
+          "display" : "Green",
+          "value" : 65280
+        }, {
+          "display" : "SpookyOrange",
+          "value" : 16744960
+        }, {
+          "display" : "SpookyGreen",
+          "value" : 11927309
+        }, {
+          "display" : "SpookyPurple",
+          "value" : 8391664
+        }, {
+          "display" : "MutedLime",
+          "value" : 7503657
+        }, {
+          "display" : "DarkGray",
+          "value" : 2762288
+        } ],
+        "configMin" : null,
+        "configMax" : null,
+        "configMaxLength" : null
+      } ]
+    }
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "CatppuccinBlue" : "Catppuccin Blue",
+      "TimeColor" : "Time Color",
+      "SpookyPurple" : "Spooky Purple",
+      "DarkGray" : "Dark Gray",
+      "SpookyOrange" : "Spooky Orange",
+      "Blue" : "Blue",
+      "CatppuccinGreen" : "Catppuccin Green",
+      "CatppuccinRed" : "Catppuccin Red",
+      "DistanceColor" : "Distance Color",
+      "HeartColor" : "Heart Rate Color",
+      "elementColorGroup" : "Element Colors",
+      "elementColorGroupDescription" : "Use these settings to apply colors to elements individually",
+      "AppName" : "MinGFace",
+      "BatteryColor" : "Battery Color",
+      "CatppuccinYellow" : "Catppuccin Yellow",
+      "MutedLime" : "Muted Lime",
+      "SpookyGreen" : "Spooky Green",
+      "CatppuccinPurple" : "Catppuccin Purple",
+      "Lime" : "Lime",
+      "White" : "White",
+      "TempColor" : "Temp Color",
+      "Green" : "Green",
+      "Lines" : "Line Color"
+    }
+  }
+}

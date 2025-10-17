@@ -1,0 +1,105 @@
+<settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+<!-- Element Colors -->
+    <group id="elementColors" title="@Strings.elementColorGroup" description="@Strings.elementColorGroupDescription">
+        
+        <setting propertyKey="@Properties.TimeColor" title="@Strings.TimeColor">
+            <settingConfig type="list">
+                <listEntry value="0xf932af">@Strings.CatppuccinYellow</listEntry>
+                <listEntry value="0xf38ba8">@Strings.CatppuccinRed</listEntry>
+                <listEntry value="0xa6e3a8">@Strings.CatppuccinGreen</listEntry>
+                <listEntry value="0x89dceb">@Strings.CatppuccinBlue</listEntry>
+                <listEntry value="0xcba6f7">@Strings.CatppuccinPurple</listEntry>
+                <listEntry value="0xffffff">@Strings.White</listEntry>
+                <listEntry value="0x00aaff">@Strings.Blue</listEntry>
+                <listEntry value="0x00ff00">@Strings.Green</listEntry>
+                <listEntry value="0xff8200">@Strings.SpookyOrange</listEntry>
+                <listEntry value="0xb5ff0d">@Strings.SpookyGreen</listEntry>
+                <listEntry value="0x800bf0">@Strings.SpookyPurple</listEntry>
+                <listEntry value="0xe4ff52">@Strings.Lime</listEntry>
+            </settingConfig>
+        </setting>
+
+        <setting propertyKey="@Properties.BatteryColor" title="@Strings.BatteryColor">
+            <settingConfig type="list">
+                <listEntry value="0xf932af">@Strings.CatppuccinYellow</listEntry>
+                <listEntry value="0xf38ba8">@Strings.CatppuccinRed</listEntry>
+                <listEntry value="0xa6e3a8">@Strings.CatppuccinGreen</listEntry>
+                <listEntry value="0x89dceb">@Strings.CatppuccinBlue</listEntry>
+                <listEntry value="0xcba6f7">@Strings.CatppuccinPurple</listEntry>
+                <listEntry value="0xffffff">@Strings.White</listEntry>
+                <listEntry value="0x00aaff">@Strings.Blue</listEntry>
+                <listEntry value="0x00ff00">@Strings.Green</listEntry>
+                <listEntry value="0xff8200">@Strings.SpookyOrange</listEntry>
+                <listEntry value="0xb5ff0d">@Strings.SpookyGreen</listEntry>
+                <listEntry value="0x800bf0">@Strings.SpookyPurple</listEntry>
+                <listEntry value="0xe4ff52">@Strings.Lime</listEntry>
+            </settingConfig>
+        </setting>
+
+        <setting propertyKey="@Properties.HeartColor" title="@Strings.HeartColor">
+            <settingConfig type="list">
+                <listEntry value="0xf932af">@Strings.CatppuccinYellow</listEntry>
+                <listEntry value="0xf38ba8">@Strings.CatppuccinRed</listEntry>
+                <listEntry value="0xa6e3a8">@Strings.CatppuccinGreen</listEntry>
+                <listEntry value="0x89dceb">@Strings.CatppuccinBlue</listEntry>
+                <listEntry value="0xcba6f7">@Strings.CatppuccinPurple</listEntry>
+                <listEntry value="0xffffff">@Strings.White</listEntry>
+                <listEntry value="0x00aaff">@Strings.Blue</listEntry>
+                <listEntry value="0x00ff00">@Strings.Green</listEntry>
+                <listEntry value="0xff8200">@Strings.SpookyOrange</listEntry>
+                <listEntry value="0xb5ff0d">@Strings.SpookyGreen</listEntry>
+                <listEntry value="0x800bf0">@Strings.SpookyPurple</listEntry>
+                <listEntry value="0xe4ff52">@Strings.Lime</listEntry>
+            </settingConfig>
+        </setting>
+
+        <setting propertyKey="@Properties.DistanceColor" title="@Strings.DistanceColor">
+            <settingConfig type="list">
+                <listEntry value="0xf932af">@Strings.CatppuccinYellow</listEntry>
+                <listEntry value="0xf38ba8">@Strings.CatppuccinRed</listEntry>
+                <listEntry value="0xa6e3a8">@Strings.CatppuccinGreen</listEntry>
+                <listEntry value="0x89dceb">@Strings.CatppuccinBlue</listEntry>
+                <listEntry value="0xcba6f7">@Strings.CatppuccinPurple</listEntry>
+                <listEntry value="0xffffff">@Strings.White</listEntry>
+                <listEntry value="0x00aaff">@Strings.Blue</listEntry>
+                <listEntry value="0x00ff00">@Strings.Green</listEntry>
+                <listEntry value="0xff8200">@Strings.SpookyOrange</listEntry>
+                <listEntry value="0xb5ff0d">@Strings.SpookyGreen</listEntry>
+                <listEntry value="0x800bf0">@Strings.SpookyPurple</listEntry>
+                <listEntry value="0xe4ff52">@Strings.Lime</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.TempColor" title="@Strings.TempColor">
+            <settingConfig type="list">
+                <listEntry value="0xf932af">@Strings.CatppuccinYellow</listEntry>
+                <listEntry value="0xf38ba8">@Strings.CatppuccinRed</listEntry>
+                <listEntry value="0xa6e3a8">@Strings.CatppuccinGreen</listEntry>
+                <listEntry value="0x89dceb">@Strings.CatppuccinBlue</listEntry>
+                <listEntry value="0xcba6f7">@Strings.CatppuccinPurple</listEntry>
+                <listEntry value="0xffffff">@Strings.White</listEntry>
+                <listEntry value="0x00aaff">@Strings.Blue</listEntry>
+                <listEntry value="0x00ff00">@Strings.Green</listEntry>
+                <listEntry value="0xff8200">@Strings.SpookyOrange</listEntry>
+                <listEntry value="0xb5ff0d">@Strings.SpookyGreen</listEntry>
+                <listEntry value="0x800bf0">@Strings.SpookyPurple</listEntry>
+                <listEntry value="0xe4ff52">@Strings.Lime</listEntry>
+            </settingConfig>
+        </setting>    
+        <setting propertyKey="@Properties.Lines" title="@Strings.Lines">
+            <settingConfig type="list">
+                <listEntry value="0xf932af">@Strings.CatppuccinYellow</listEntry>
+                <listEntry value="0xf38ba8">@Strings.CatppuccinRed</listEntry>
+                <listEntry value="0xa6e3a8">@Strings.CatppuccinGreen</listEntry>
+                <listEntry value="0x89dceb">@Strings.CatppuccinBlue</listEntry>
+                <listEntry value="0xcba6f7">@Strings.CatppuccinPurple</listEntry>
+                <listEntry value="0xffffff">@Strings.White</listEntry>
+                <listEntry value="0x00aaff">@Strings.Blue</listEntry>
+                <listEntry value="0x00ff00">@Strings.Green</listEntry>
+                <listEntry value="0xff8200">@Strings.SpookyOrange</listEntry>
+                <listEntry value="0xb5ff0d">@Strings.SpookyGreen</listEntry>
+                <listEntry value="0x800bf0">@Strings.SpookyPurple</listEntry>
+                <listEntry value="0x727f29">@Strings.MutedLime</listEntry>
+                <listEntry value="0x2a2630">@Strings.DarkGray</listEntry>
+            </settingConfig>
+        </setting>
+    </group></settings>

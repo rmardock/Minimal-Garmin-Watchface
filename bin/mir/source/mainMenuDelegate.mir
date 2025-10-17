@@ -1,0 +1,142 @@
+[ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
+import Toybox.Application;
+[ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
+import Toybox.System;
+[ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc"; @line = 5; @symbol_classdef = [mainMenuDelegate,5,6,22]; @symbol_extends<0> = [WatchUi,5,31,38]; @symbol_extends<1> = [Menu2InputDelegate,5,39,57]; ]
+class mainMenuDelegate extends WatchUi.Menu2InputDelegate {
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    function initialize() as Void {
+_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_8_4_11_4_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" 10 8 ]
+        symbol [ Menu2InputDelegate %tmp.2 10 8 26 ];
+        %tmp.2 = getv ? :Menu2InputDelegate;
+        symbol [ initialize %tmp.3 10 27 37 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_8_4_11_4_stop:
+    }
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc"; @line = 13; @symbol_functiondef = [onSelect,13,13,21]; @symbol_param<0> = [item,13,22,26]; ]
+    function onSelect(item) {
+_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_14_4_31_4_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" 16 8 ]
+        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_14_4_31_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_14_4_31_4_stop" ]
+        %id.1 = local;
+        symbol [ id %id.1 16 12 14 ];
+        %tmp.1 = lgetv %item;
+        symbol [ item %tmp.1 16 17 21 ];
+        symbol [ getId %tmp.2 16 22 27 ];
+        %tmp.2 = getv function %tmp.1 :getId;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ toString %tmp.4 16 30 38 ];
+        %tmp.4 = getv function %tmp.3 :toString;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        lputv %id.1 %tmp.5;
+        symbol [ id %id.1 16 12 14 ];
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" 19 8 ]
+_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_19_8_23_8_if_stmt:
+        %tmp.6 = lgetv %id.1;
+        symbol [ id %tmp.6 19 11 13 ];
+        symbol [ equals %tmp.7 19 14 20 ];
+        %tmp.7 = getv function %tmp.6 :equals;
+        %tmp.8 = "ThemesMenu";
+        %tmp.9 = invoke %tmp.6 %tmp.7(%tmp.8);
+        bf %tmp.9 @_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_19_8_23_8_if_end;
+_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_19_8_23_8_if_true:
+_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_20_8_23_8_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" 21 12 ]
+        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_20_8_23_8_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_20_8_23_8_stop" ]
+        %subMenu.2 = local;
+        symbol [ subMenu %subMenu.2 21 16 23 ];
+        symbol [ themesMenuView %tmp.13 21 30 44 ];
+        %tmp.13 = getv ? :themesMenuView;
+        %tmp.10 = newc %tmp.13 ();
+        lputv %subMenu.2 %tmp.10;
+        symbol [ subMenu %subMenu.2 21 16 23 ];
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" 22 12 ]
+        symbol [ WatchUi %tmp.14 22 12 19 ];
+        %tmp.14 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.15 22 20 28 ];
+        %tmp.15 = getv function %tmp.14 :pushView;
+        %tmp.16 = lgetv %subMenu.2;
+        symbol [ subMenu %tmp.16 22 29 36 ];
+        symbol [ themesMenuDelegate %tmp.20 22 42 60 ];
+        %tmp.20 = getv ? :themesMenuDelegate;
+        %tmp.17 = newc %tmp.20 ();
+        symbol [ WatchUi %tmp.21 22 64 71 ];
+        %tmp.21 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_LEFT %tmp.22 22 72 82 ];
+        %tmp.22 = getv %tmp.21 :SLIDE_LEFT;
+        invoke %tmp.14 %tmp.15(%tmp.16, %tmp.17, %tmp.22);
+_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_20_8_23_8_stop:
+        goto @_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_19_8_23_8_if_end;
+_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_19_8_23_8_if_end:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" 26 8 ]
+_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_26_8_30_8_if_stmt:
+        %tmp.23 = lgetv %id.1;
+        symbol [ id %tmp.23 26 11 13 ];
+        symbol [ equals %tmp.24 26 14 20 ];
+        %tmp.24 = getv function %tmp.23 :equals;
+        %tmp.25 = "CustomColorsMenu";
+        %tmp.26 = invoke %tmp.23 %tmp.24(%tmp.25);
+        bf %tmp.26 @_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_26_8_30_8_if_end;
+_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_26_8_30_8_if_true:
+_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_27_8_30_8_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" 28 12 ]
+        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_27_8_30_8_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_27_8_30_8_stop" ]
+        %subMenu.3 = local;
+        symbol [ subMenu %subMenu.3 28 16 23 ];
+        symbol [ customColorsMenuView %tmp.30 28 30 50 ];
+        %tmp.30 = getv ? :customColorsMenuView;
+        %tmp.27 = newc %tmp.30 ();
+        lputv %subMenu.3 %tmp.27;
+        symbol [ subMenu %subMenu.3 28 16 23 ];
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" 29 12 ]
+        symbol [ WatchUi %tmp.31 29 12 19 ];
+        %tmp.31 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.32 29 20 28 ];
+        %tmp.32 = getv function %tmp.31 :pushView;
+        %tmp.33 = lgetv %subMenu.3;
+        symbol [ subMenu %tmp.33 29 29 36 ];
+        symbol [ customColorsMenuDelegate %tmp.37 29 42 66 ];
+        %tmp.37 = getv ? :customColorsMenuDelegate;
+        %tmp.34 = newc %tmp.37 ();
+        symbol [ WatchUi %tmp.38 29 70 77 ];
+        %tmp.38 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_LEFT %tmp.39 29 78 88 ];
+        %tmp.39 = getv %tmp.38 :SLIDE_LEFT;
+        invoke %tmp.31 %tmp.32(%tmp.33, %tmp.34, %tmp.39);
+_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_27_8_30_8_stop:
+        goto @_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_26_8_30_8_if_end;
+_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_26_8_30_8_if_end:
+_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_14_4_31_4_stop:
+    }
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc"; @line = 34; @symbol_functiondef = [onBack,34,13,19]; ]
+    function onBack() {
+_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_35_4_38_4_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" 36 8 ]
+        symbol [ WatchUi %tmp.1 36 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ popView %tmp.2 36 16 23 ];
+        %tmp.2 = getv function %tmp.1 :popView;
+        symbol [ WatchUi %tmp.3 36 24 31 ];
+        %tmp.3 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_RIGHT %tmp.4 36 32 43 ];
+        %tmp.4 = getv %tmp.3 :SLIDE_RIGHT;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc" 37 8 ]
+        ret ?;
+_home_ry_dev_Minimal_Garmin_Watchface_source_mainMenuDelegate_mc_35_4_38_4_stop:
+    }
+}
+[ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/mainMenuDelegate.mc"; @line = 1; ]
+<init> {
+}
