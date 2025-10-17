@@ -22,8 +22,8 @@ I created this watchface to run on my Garmin Forerunner 165 Music (and I am curr
 
 ### **Themes**
 - *Neon*
-- *Catppuccin Mocha*
 - *Spooky*
+- *Catppuccin Mocha*
 - *Blue Electric*
 
 <img src="img/watchface_preview_01.png" alt="watchface_image" width="200" /> <img src="img/spooky_theme.png" alt="watchface_image" width="200" />
