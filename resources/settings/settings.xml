@@ -1,7 +1,6 @@
 <settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
 <!-- Element Colors -->
-    <group id="elementColors" title="@Strings.elementColorGroup" description="@Strings.elementColorGroupDescription">
-        
+    <group id="elementColors" title="@Strings.elementColorGroup" description="@Strings.elementColorGroupDescription">  
         <setting propertyKey="@Properties.TimeColor" title="@Strings.TimeColor">
             <settingConfig type="list">
                 <listEntry value="0xf932af">@Strings.CatppuccinYellow</listEntry>
@@ -102,4 +101,8 @@
                 <listEntry value="0x2a2630">@Strings.DarkGray</listEntry>
             </settingConfig>
         </setting>
-    </group></settings>
+    </group>
+    <setting propertyKey="@Properties.DisplaySteps" title="@Strings.DisplaySteps">
+        <settingConfig type="boolean" />
+    </setting>
+</settings>

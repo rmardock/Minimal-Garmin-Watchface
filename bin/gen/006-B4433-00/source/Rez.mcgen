@@ -28,6 +28,7 @@ module Rez {
         (:initialized) var DistanceColor as ResourceId;
         (:initialized) var HeartColor as ResourceId;
         (:initialized) var elementColorGroup as ResourceId;
+        (:initialized) var DisplaySteps as ResourceId;
         (:initialized) var elementColorGroupDescription as ResourceId;
         (:initialized) var AppName as ResourceId;
         (:initialized) var BatteryColor as ResourceId;

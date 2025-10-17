@@ -52,13 +52,18 @@ _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceApp_mc_20_77_22_4_stop:
     function getInitialView() as [Views] or [Views, InputDelegates] {
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceApp_mc_25_68_27_4_start:
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc" 26 8 ]
-        %tmp.1 = newa 1;
+        %tmp.1 = newa 2;
         symbol [ MinGFaceView %tmp.5 26 21 33 ];
         %tmp.5 = getv ? :MinGFaceView;
         %tmp.2 = newc %tmp.5 ();
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
-        ret %tmp.7;
+        symbol [ MinGFaceDelegate %tmp.11 26 42 58 ];
+        %tmp.11 = getv ? :MinGFaceDelegate;
+        %tmp.8 = newc %tmp.11 ();
+        %tmp.12 = dup %tmp.7;
+        %tmp.13 = aputv %tmp.12 1 %tmp.8;
+        ret %tmp.13;
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceApp_mc_25_68_27_4_stop:
     }
     [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceApp.mc"; @line = 30; @symbol_functiondef = [onSettingsChanged,30,13,30]; ]

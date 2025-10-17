@@ -23,7 +23,7 @@ class MinGFaceApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as [Views] or [Views, InputDelegates] {
-        return [ new MinGFaceView() ];
+        return [ new MinGFaceView() , new MinGFaceDelegate()];
     }
 
     // New app settings have been received so trigger a UI update

@@ -10,6 +10,7 @@
     <string id="TempColor">Temp Color</string>
     <string id="HeartColor">Heart Rate Color</string>
     <string id="Lines">Line Color</string>
+    <string id="DisplaySteps">Display Steps</string>
 
     <!-- Color Titles -->
     <string id="SpookyOrange">Spooky Orange</string>

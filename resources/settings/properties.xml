@@ -9,6 +9,9 @@
     <property id="Lines" type="number">0x2a2630</property>
     <!-- Outline color 0x727f29 -->
 
+    <!-- Property for mileage/steps -->
+    <property id="DisplaySteps" type="boolean">false</property>
+
     <!-- Property for 24hr format -->
     <property id="HourFormat" type="boolean">false</property>
 

@@ -42,6 +42,9 @@ class MinGFaceView extends WatchUi.WatchFace {
         var futura2SXBI = loadResource(Rez.Fonts.futura2XSBI);
         var iconFont = loadResource(Rez.Fonts.iconFont);
 
+        // Load Distance/Steps property
+        var displaySteps = Properties.getValue("DisplaySteps");
+
         // Load justification
         var justification = Graphics.TEXT_JUSTIFY_CENTER;
 
@@ -56,6 +59,8 @@ class MinGFaceView extends WatchUi.WatchFace {
         var distanceLabel = getDistanceLabel();
         var distanceIcon = "%";
         var heartLabel = getHeartRateString();
+        var stepsLabel = getStepsString();
+        var stepsIcon = "#";
         var tempLabel = getTempString();
         var tempSymbol = "°";
 
@@ -89,10 +94,22 @@ class MinGFaceView extends WatchUi.WatchFace {
         dc.setColor(batteryColor, transparent);
         dc.drawText(percX*0.22, percY*0.64, futura2SXBI, batteryLabel, justification);
         
-        // Distance
+        // Distance || Steps //
         dc.setColor(distanceColor, transparent);
-        dc.drawText(percX*0.57, percY*0.8, futuraXSBI, distanceLabel, justification);
-        dc.drawText(percX*0.3, percY*0.805, iconFont, distanceIcon, justification);
+
+        // Display distance
+        if(!displaySteps)
+        {
+            dc.drawText(percX*0.57, percY*0.8, futuraXSBI, distanceLabel, justification);
+            dc.drawText(percX*0.3, percY*0.805, iconFont, distanceIcon, justification);
+        }
+        
+        // Display steps
+        if(displaySteps)
+        {
+            dc.drawText(percX*0.57, percY*0.8, futuraXSBI, stepsLabel, justification);
+            dc.drawText(percX*0.3, percY*0.805, iconFont, stepsIcon, justification);
+        }
 
         // Heart Rate
         dc.setColor(heartColor, transparent);
@@ -212,6 +229,20 @@ class MinGFaceView extends WatchUi.WatchFace {
     {
         var milesString = getWeeklyRunDistanceMiles().format("%0.2f") + " mi";
         return milesString;
+    }
+
+    // Function to get steps as a number
+    function getSteps() as Number or Null {
+        return Toybox.ActivityMonitor.getInfo().steps;
+    }
+
+    // Function to get steps as a string 
+    function getStepsString() as String {
+        var steps = getSteps();
+        if (steps == null) {
+            return "0";
+        }
+        return getSteps().format("%d");
     }
 
     //---- Heart Rate Functions ----//
