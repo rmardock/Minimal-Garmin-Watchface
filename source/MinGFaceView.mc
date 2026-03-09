@@ -196,7 +196,7 @@ class MinGFaceView extends WatchUi.WatchFace {
         if(UserProfile has :getUserActivityHistory)
         {
             var i = UserProfile.getUserActivityHistory();
-            if(i != null)
+            if(i != null || i == 0)
             {
                 var next = i.next();
                 var weekStart = getWeekStart();
@@ -220,7 +220,16 @@ class MinGFaceView extends WatchUi.WatchFace {
     // Function to get distance in miles
     function getWeeklyRunDistanceMiles() as Float 
     {
-        var miles = getWeeklyRunningDistance()/1609.344;
+        var dist = getWeeklyRunningDistance();
+        // If distance is 0, return 0 miles
+        var miles = 0;
+        if(dist != null)
+        {
+            if(dist > 0)
+            {
+                miles = dist/1609.344;
+            }
+        }
         return miles;
     }
 
@@ -256,24 +265,30 @@ class MinGFaceView extends WatchUi.WatchFace {
     // Function to get heart rate as a string 
     function getHeartRateString() as String 
     {
-        return getHeartRate().format("%d");
+        var hr = getHeartRate();
+        if(hr == 255 || hr == 0 || hr == null)
+        {
+            return "--";
+        }
+        else
+        {
+            return hr.format("%d");
+        }
     }
 
     //---- Temperature Functions ----//
     // Function to get the current temperature in Fahrenheit
-    function getTemp() as Float 
-    {
-        var currConditions = Toybox.Weather.getCurrentConditions();
-        var tempC = currConditions.temperature;
-        var tempF = (tempC * 1.8) + 32;
-        return tempF;
-    }
-
-    // Function to get current temperature as string 
     function getTempString() as String 
     {
-        var tempString = getTemp().format("%.0f");
-        return tempString;
+        var currConditions = Toybox.Weather.getCurrentConditions();
+        var tempF = "--";
+        if(currConditions != null && currConditions.temperature != null) {
+            tempF = ((currConditions.temperature * 1.8) + 32).format("%d");
+        }
+        else {
+            tempF = "--";
+        }
+        return tempF;
     }
 
     //---- Battery Functions ----//

@@ -1044,115 +1044,125 @@ _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_197_8_216_8_start:
         symbol [ i %i.2 198 16 17 ];
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 199 12 ]
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_199_12_215_12_if_stmt:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_199_15_199_33_begin:
         %tmp.9 = lgetv %i.2;
         symbol [ i %tmp.9 199 15 16 ];
         %tmp.10 = null;
         %tmp.11 = ne %tmp.9 %tmp.10;
-        bf %tmp.11 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_199_12_215_12_if_end;
+        bt %tmp.11 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_199_12_215_12_if_true;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_199_28_199_33_false:
+        %tmp.12 = lgetv %i.2;
+        symbol [ i %tmp.12 199 28 29 ];
+        %tmp.13 = as %tmp.12 { (Null) };
+        %tmp.14 = 0;
+        %tmp.15 = eq %tmp.13 %tmp.14;
+        push %tmp.15;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_199_28_199_33_end:
+        %tmp.16 = phi [%tmp.11 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_199_15_199_33_begin] [%tmp.15 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_199_28_199_33_false] [%tmp.16 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_199_28_199_33_end];
+        bf %tmp.16 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_199_12_215_12_if_end;
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_199_12_215_12_if_true:
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_200_12_215_12_start:
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 201 16 ]
         [ "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_200_12_215_12_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_200_12_215_12_stop" ]
         %next.3 = local;
         symbol [ next %next.3 201 20 24 ];
-        %tmp.12 = lgetv %i.2;
-        symbol [ i %tmp.12 201 27 28 ];
-        %tmp.13 = as %tmp.12 { (!Null) };
-        symbol [ next %tmp.14 201 29 33 ];
-        %tmp.14 = getv function %tmp.13 :next;
-        %tmp.15 = invoke %tmp.13 %tmp.14();
-        lputv %next.3 %tmp.15;
+        %tmp.17 = lgetv %i.2;
+        symbol [ i %tmp.17 201 27 28 ];
+        symbol [ next %tmp.18 201 29 33 ];
+        %tmp.18 = getv function %tmp.17 :next;
+        %tmp.19 = invoke %tmp.17 %tmp.18();
+        lputv %next.3 %tmp.19;
         symbol [ next %next.3 201 20 24 ];
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 202 16 ]
         [ "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_200_12_215_12_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_200_12_215_12_stop" ]
         %weekStart.4 = local;
         symbol [ weekStart %weekStart.4 202 20 29 ];
-        %tmp.16 = self;
-        symbol [ getWeekStart %tmp.17 202 32 44 ];
-        %tmp.17 = getv function %tmp.16 :getWeekStart;
-        %tmp.18 = invoke %tmp.16 %tmp.17();
-        lputv %weekStart.4 %tmp.18;
+        %tmp.20 = self;
+        symbol [ getWeekStart %tmp.21 202 32 44 ];
+        %tmp.21 = getv function %tmp.20 :getWeekStart;
+        %tmp.22 = invoke %tmp.20 %tmp.21();
+        lputv %weekStart.4 %tmp.22;
         symbol [ weekStart %weekStart.4 202 20 29 ];
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 204 16 ]
         while @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_204_16_214_16_while_test @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_204_16_214_16_while_end;
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_204_16_214_16_while_test:
-        %tmp.19 = lgetv %next.3;
-        symbol [ next %tmp.19 204 22 26 ];
-        %tmp.20 = null;
-        %tmp.21 = ne %tmp.19 %tmp.20;
-        bf %tmp.21 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_204_16_214_16_while_end;
+        %tmp.23 = lgetv %next.3;
+        symbol [ next %tmp.23 204 22 26 ];
+        %tmp.24 = null;
+        %tmp.25 = ne %tmp.23 %tmp.24;
+        bf %tmp.25 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_204_16_214_16_while_end;
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_204_16_214_16_while_begin:
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_205_16_214_16_start:
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 206 20 ]
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_206_20_212_20_if_stmt:
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_206_23_206_79_begin:
-        %tmp.22 = lgetv %next.3;
-        symbol [ next %tmp.22 206 23 27 ];
-        %tmp.23 = as %tmp.22 { (!Null) };
-        symbol [ type %tmp.24 206 28 32 ];
-        %tmp.24 = getv %tmp.23 :type;
-        symbol [ Activity %tmp.26 206 36 44 ];
-        %tmp.26 = getv ? :Activity;
-        symbol [ SPORT_RUNNING %tmp.27 206 45 58 ];
-        %tmp.27 = getv %tmp.26 :SPORT_RUNNING;
-        %tmp.28 = eq %tmp.24 %tmp.27;
-        bf %tmp.28 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_206_20_212_20_if_end;
+        %tmp.26 = lgetv %next.3;
+        symbol [ next %tmp.26 206 23 27 ];
+        %tmp.27 = as %tmp.26 { (!Null) };
+        symbol [ type %tmp.28 206 28 32 ];
+        %tmp.28 = getv %tmp.27 :type;
+        symbol [ Activity %tmp.30 206 36 44 ];
+        %tmp.30 = getv ? :Activity;
+        symbol [ SPORT_RUNNING %tmp.31 206 45 58 ];
+        %tmp.31 = getv %tmp.30 :SPORT_RUNNING;
+        %tmp.32 = eq %tmp.28 %tmp.31;
+        bf %tmp.32 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_206_20_212_20_if_end;
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_206_62_206_79_true:
-        %tmp.29 = lgetv %next.3;
-        symbol [ next %tmp.29 206 62 66 ];
-        %tmp.30 = as %tmp.29 { (!Null) };
-        symbol [ distance %tmp.31 206 67 75 ];
-        %tmp.31 = getv %tmp.30 :distance;
-        %tmp.32 = null;
-        %tmp.33 = ne %tmp.31 %tmp.32;
-        push %tmp.33;
+        %tmp.33 = lgetv %next.3;
+        symbol [ next %tmp.33 206 62 66 ];
+        %tmp.34 = as %tmp.33 { (!Null) };
+        symbol [ distance %tmp.35 206 67 75 ];
+        %tmp.35 = getv %tmp.34 :distance;
+        %tmp.36 = null;
+        %tmp.37 = ne %tmp.35 %tmp.36;
+        push %tmp.37;
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_206_62_206_79_end:
-        %tmp.34 = phi [%tmp.28 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_206_23_206_79_begin] [%tmp.33 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_206_62_206_79_true] [%tmp.34 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_206_62_206_79_end];
-        bf %tmp.34 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_206_20_212_20_if_end;
+        %tmp.38 = phi [%tmp.32 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_206_23_206_79_begin] [%tmp.37 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_206_62_206_79_true] [%tmp.38 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_206_62_206_79_end];
+        bf %tmp.38 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_206_20_212_20_if_end;
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_206_20_212_20_if_true:
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_207_20_212_20_start:
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 208 24 ]
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_208_24_211_24_if_stmt:
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_208_27_208_96_begin:
-        %tmp.35 = lgetv %next.3;
-        symbol [ next %tmp.35 208 27 31 ];
-        %tmp.36 = as %tmp.35 { (!Null) };
-        symbol [ startTime %tmp.37 208 32 41 ];
-        %tmp.37 = getv %tmp.36 :startTime;
-        %tmp.38 = null;
-        %tmp.39 = ne %tmp.37 %tmp.38;
-        bf %tmp.39 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_208_24_211_24_if_end;
+        %tmp.39 = lgetv %next.3;
+        symbol [ next %tmp.39 208 27 31 ];
+        %tmp.40 = as %tmp.39 { (!Null) };
+        symbol [ startTime %tmp.41 208 32 41 ];
+        %tmp.41 = getv %tmp.40 :startTime;
+        %tmp.42 = null;
+        %tmp.43 = ne %tmp.41 %tmp.42;
+        bf %tmp.43 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_208_24_211_24_if_end;
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_208_53_208_96_true:
-        %tmp.40 = lgetv %weekStart.4;
-        symbol [ weekStart %tmp.40 208 53 62 ];
-        symbol [ lessThan %tmp.41 208 63 71 ];
-        %tmp.41 = getv function %tmp.40 :lessThan;
-        %tmp.42 = lgetv %next.3;
-        symbol [ next %tmp.42 208 72 76 ];
-        %tmp.43 = as %tmp.42 { (!Null) };
-        symbol [ startTime %tmp.44 208 77 86 ];
-        %tmp.44 = getv %tmp.43 :startTime;
-        %tmp.45 = as %tmp.44 Moment;
-        symbol [ Moment %tmp.45 208 90 96 ];
-        %tmp.46 = invoke %tmp.40 %tmp.41(%tmp.45);
-        push %tmp.46;
+        %tmp.44 = lgetv %weekStart.4;
+        symbol [ weekStart %tmp.44 208 53 62 ];
+        symbol [ lessThan %tmp.45 208 63 71 ];
+        %tmp.45 = getv function %tmp.44 :lessThan;
+        %tmp.46 = lgetv %next.3;
+        symbol [ next %tmp.46 208 72 76 ];
+        %tmp.47 = as %tmp.46 { (!Null) };
+        symbol [ startTime %tmp.48 208 77 86 ];
+        %tmp.48 = getv %tmp.47 :startTime;
+        %tmp.49 = as %tmp.48 Moment;
+        symbol [ Moment %tmp.49 208 90 96 ];
+        %tmp.50 = invoke %tmp.44 %tmp.45(%tmp.49);
+        push %tmp.50;
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_208_53_208_96_end:
-        %tmp.47 = phi [%tmp.39 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_208_27_208_96_begin] [%tmp.46 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_208_53_208_96_true] [%tmp.47 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_208_53_208_96_end];
-        bf %tmp.47 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_208_24_211_24_if_end;
+        %tmp.51 = phi [%tmp.43 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_208_27_208_96_begin] [%tmp.50 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_208_53_208_96_true] [%tmp.51 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_208_53_208_96_end];
+        bf %tmp.51 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_208_24_211_24_if_end;
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_208_24_211_24_if_true:
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_209_24_211_24_start:
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 210 28 ]
-        %tmp.48 = lgetv %dist.1;
-        symbol [ dist %tmp.48 210 28 32 ];
-        %tmp.49 = lgetv %next.3;
-        symbol [ next %tmp.49 210 36 40 ];
-        %tmp.50 = as %tmp.49 { (!Null) };
-        symbol [ distance %tmp.51 210 41 49 ];
-        %tmp.51 = getv %tmp.50 :distance;
-        %tmp.52 = as %tmp.51 Number;
-        symbol [ Number %tmp.52 210 53 59 ];
-        %tmp.53 = add %tmp.48 %tmp.52;
-        lputv %dist.1 %tmp.53;
+        %tmp.52 = lgetv %dist.1;
+        symbol [ dist %tmp.52 210 28 32 ];
+        %tmp.53 = lgetv %next.3;
+        symbol [ next %tmp.53 210 36 40 ];
+        %tmp.54 = as %tmp.53 { (!Null) };
+        symbol [ distance %tmp.55 210 41 49 ];
+        %tmp.55 = getv %tmp.54 :distance;
+        %tmp.56 = as %tmp.55 Number;
+        symbol [ Number %tmp.56 210 53 59 ];
+        %tmp.57 = add %tmp.52 %tmp.56;
+        lputv %dist.1 %tmp.57;
         symbol [ dist %dist.1 210 28 32 ];
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_209_24_211_24_stop:
         goto @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_208_24_211_24_if_end;
@@ -1161,13 +1171,12 @@ _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_207_20_212_20_stop:
         goto @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_206_20_212_20_if_end;
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_206_20_212_20_if_end:
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 213 20 ]
-        %tmp.54 = lgetv %i.2;
-        symbol [ i %tmp.54 213 27 28 ];
-        %tmp.55 = as %tmp.54 { (!Null) };
-        symbol [ next %tmp.56 213 29 33 ];
-        %tmp.56 = getv function %tmp.55 :next;
-        %tmp.57 = invoke %tmp.55 %tmp.56();
-        lputv %next.3 %tmp.57;
+        %tmp.58 = lgetv %i.2;
+        symbol [ i %tmp.58 213 27 28 ];
+        symbol [ next %tmp.59 213 29 33 ];
+        %tmp.59 = getv function %tmp.58 :next;
+        %tmp.60 = invoke %tmp.58 %tmp.59();
+        lputv %next.3 %tmp.60;
         symbol [ next %next.3 213 20 24 ];
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_205_16_214_16_stop:
         goto @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_204_16_214_16_while_test;
@@ -1179,280 +1188,375 @@ _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_197_8_216_8_stop:
         goto @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_196_8_216_8_if_end;
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_196_8_216_8_if_end:
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 217 8 ]
-        %tmp.58 = lgetv %dist.1;
-        symbol [ dist %tmp.58 217 15 19 ];
-        ret %tmp.58;
+        %tmp.61 = lgetv %dist.1;
+        symbol [ dist %tmp.61 217 15 19 ];
+        ret %tmp.61;
 _home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_194_50_218_4_stop:
     }
     [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 221; @symbol_functiondef = [getWeeklyRunDistanceMiles,221,13,38]; @symbol_return<0> = [Float,221,44,49]; ]
     function getWeeklyRunDistanceMiles() as Float {
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_222_4_225_4_start:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_222_4_234_4_start:
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 223 8 ]
-        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_222_4_225_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_222_4_225_4_stop" ]
-        %miles.1 = local;
-        symbol [ miles %miles.1 223 12 17 ];
+        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_222_4_234_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_222_4_234_4_stop" ]
+        %dist.1 = local;
+        symbol [ dist %dist.1 223 12 16 ];
         %tmp.1 = self;
-        symbol [ getWeeklyRunningDistance %tmp.2 223 20 44 ];
+        symbol [ getWeeklyRunningDistance %tmp.2 223 19 43 ];
         %tmp.2 = getv function %tmp.1 :getWeeklyRunningDistance;
         %tmp.3 = invoke %tmp.1 %tmp.2();
-        %tmp.4 = 1609.344;
-        %tmp.5 = div %tmp.3 %tmp.4;
-        lputv %miles.1 %tmp.5;
-        symbol [ miles %miles.1 223 12 17 ];
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 224 8 ]
-        %tmp.6 = lgetv %miles.1;
-        symbol [ miles %tmp.6 224 15 20 ];
-        ret %tmp.6;
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_222_4_225_4_stop:
+        lputv %dist.1 %tmp.3;
+        symbol [ dist %dist.1 223 12 16 ];
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 225 8 ]
+        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_222_4_234_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_222_4_234_4_stop" ]
+        %miles.2 = local;
+        symbol [ miles %miles.2 225 12 17 ];
+        %tmp.4 = 0;
+        lputv %miles.2 %tmp.4;
+        symbol [ miles %miles.2 225 12 17 ];
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 226 8 ]
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_226_8_232_8_if_stmt:
+        %tmp.5 = lgetv %dist.1;
+        symbol [ dist %tmp.5 226 11 15 ];
+        %tmp.6 = null;
+        %tmp.7 = ne %tmp.5 %tmp.6;
+        bf %tmp.7 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_226_8_232_8_if_end;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_226_8_232_8_if_true:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_227_8_232_8_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 228 12 ]
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_228_12_231_12_if_stmt:
+        %tmp.8 = lgetv %dist.1;
+        symbol [ dist %tmp.8 228 15 19 ];
+        %tmp.9 = as %tmp.8 { (!Null) };
+        %tmp.10 = 0;
+        %tmp.11 = gt %tmp.9 %tmp.10;
+        bf %tmp.11 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_228_12_231_12_if_end;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_228_12_231_12_if_true:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_229_12_231_12_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 230 16 ]
+        %tmp.12 = lgetv %dist.1;
+        symbol [ dist %tmp.12 230 24 28 ];
+        %tmp.13 = as %tmp.12 { (!Null) };
+        %tmp.14 = 1609.344;
+        %tmp.15 = div %tmp.13 %tmp.14;
+        lputv %miles.2 %tmp.15;
+        symbol [ miles %miles.2 230 16 21 ];
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_229_12_231_12_stop:
+        goto @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_228_12_231_12_if_end;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_228_12_231_12_if_end:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_227_8_232_8_stop:
+        goto @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_226_8_232_8_if_end;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_226_8_232_8_if_end:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 233 8 ]
+        %tmp.16 = lgetv %miles.2;
+        symbol [ miles %tmp.16 233 15 20 ];
+        ret %tmp.16;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_222_4_234_4_stop:
     }
-    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 228; @symbol_functiondef = [getDistanceLabel,228,13,29]; @symbol_return<0> = [String,228,35,41]; ]
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 237; @symbol_functiondef = [getDistanceLabel,237,13,29]; @symbol_return<0> = [String,237,35,41]; ]
     function getDistanceLabel() as String {
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_229_4_232_4_start:
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 230 8 ]
-        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_229_4_232_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_229_4_232_4_stop" ]
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_238_4_241_4_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 239 8 ]
+        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_238_4_241_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_238_4_241_4_stop" ]
         %milesString.1 = local;
-        symbol [ milesString %milesString.1 230 12 23 ];
+        symbol [ milesString %milesString.1 239 12 23 ];
         %tmp.1 = self;
-        symbol [ getWeeklyRunDistanceMiles %tmp.2 230 26 51 ];
+        symbol [ getWeeklyRunDistanceMiles %tmp.2 239 26 51 ];
         %tmp.2 = getv function %tmp.1 :getWeeklyRunDistanceMiles;
         %tmp.3 = invoke %tmp.1 %tmp.2();
-        symbol [ format %tmp.4 230 54 60 ];
+        symbol [ format %tmp.4 239 54 60 ];
         %tmp.4 = getv function %tmp.3 :format;
         %tmp.5 = "%0.2f";
         %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
         %tmp.7 = " mi";
         %tmp.8 = add %tmp.6 %tmp.7;
         lputv %milesString.1 %tmp.8;
-        symbol [ milesString %milesString.1 230 12 23 ];
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 231 8 ]
+        symbol [ milesString %milesString.1 239 12 23 ];
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 240 8 ]
         %tmp.9 = lgetv %milesString.1;
-        symbol [ milesString %tmp.9 231 15 26 ];
+        symbol [ milesString %tmp.9 240 15 26 ];
         ret %tmp.9;
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_229_4_232_4_stop:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_238_4_241_4_stop:
     }
-    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 235; @symbol_functiondef = [getSteps,235,13,21]; @symbol_return<0> = [Number,235,27,33]; ]
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 244; @symbol_functiondef = [getSteps,244,13,21]; @symbol_return<0> = [Number,244,27,33]; ]
     function getSteps() as Number or Null {
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_235_42_237_4_start:
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 236 8 ]
-        symbol [ Toybox %tmp.2 236 15 21 ];
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_244_42_246_4_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 245 8 ]
+        symbol [ Toybox %tmp.2 245 15 21 ];
         %tmp.2 = getv ? :Toybox;
-        symbol [ ActivityMonitor %tmp.3 236 22 37 ];
+        symbol [ ActivityMonitor %tmp.3 245 22 37 ];
         %tmp.3 = getv %tmp.2 :ActivityMonitor;
-        symbol [ getInfo %tmp.4 236 38 45 ];
+        symbol [ getInfo %tmp.4 245 38 45 ];
         %tmp.4 = getv function %tmp.3 :getInfo;
         %tmp.5 = invoke %tmp.3 %tmp.4();
-        symbol [ steps %tmp.6 236 48 53 ];
+        symbol [ steps %tmp.6 245 48 53 ];
         %tmp.6 = getv %tmp.5 :steps;
         ret %tmp.6;
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_235_42_237_4_stop:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_244_42_246_4_stop:
     }
-    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 240; @symbol_functiondef = [getStepsString,240,13,27]; @symbol_return<0> = [String,240,33,39]; ]
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 249; @symbol_functiondef = [getStepsString,249,13,27]; @symbol_return<0> = [String,249,33,39]; ]
     function getStepsString() as String {
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_240_40_246_4_start:
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 241 8 ]
-        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_240_40_246_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_240_40_246_4_stop" ]
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_249_40_255_4_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 250 8 ]
+        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_249_40_255_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_249_40_255_4_stop" ]
         %steps.1 = local;
-        symbol [ steps %steps.1 241 12 17 ];
+        symbol [ steps %steps.1 250 12 17 ];
         %tmp.1 = self;
-        symbol [ getSteps %tmp.2 241 20 28 ];
+        symbol [ getSteps %tmp.2 250 20 28 ];
         %tmp.2 = getv function %tmp.1 :getSteps;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %steps.1 %tmp.3;
-        symbol [ steps %steps.1 241 12 17 ];
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 242 8 ]
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_242_8_244_8_if_stmt:
+        symbol [ steps %steps.1 250 12 17 ];
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 251 8 ]
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_251_8_253_8_if_stmt:
         %tmp.4 = lgetv %steps.1;
-        symbol [ steps %tmp.4 242 12 17 ];
+        symbol [ steps %tmp.4 251 12 17 ];
         %tmp.5 = null;
         %tmp.6 = eq %tmp.4 %tmp.5;
-        bf %tmp.6 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_242_8_244_8_if_end;
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_242_8_244_8_if_true:
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_242_27_244_8_start:
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 243 12 ]
+        bf %tmp.6 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_251_8_253_8_if_end;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_251_8_253_8_if_true:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_251_27_253_8_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 252 12 ]
         %tmp.7 = "0";
         ret %tmp.7;
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_242_27_244_8_stop:
-        goto @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_242_8_244_8_if_end;
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_242_8_244_8_if_end:
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 245 8 ]
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_251_27_253_8_stop:
+        goto @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_251_8_253_8_if_end;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_251_8_253_8_if_end:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 254 8 ]
         %tmp.8 = self;
-        symbol [ getSteps %tmp.9 245 15 23 ];
+        symbol [ getSteps %tmp.9 254 15 23 ];
         %tmp.9 = getv function %tmp.8 :getSteps;
         %tmp.10 = invoke %tmp.8 %tmp.9();
-        symbol [ format %tmp.11 245 26 32 ];
+        symbol [ format %tmp.11 254 26 32 ];
         %tmp.11 = getv function %tmp.10 :format;
         %tmp.12 = "%d";
         %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
         ret %tmp.13;
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_240_40_246_4_stop:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_249_40_255_4_stop:
     }
-    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 250; @symbol_functiondef = [getHeartRate,250,13,25]; @symbol_return<0> = [Number,250,31,37]; ]
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 259; @symbol_functiondef = [getHeartRate,259,13,25]; @symbol_return<0> = [Number,259,31,37]; ]
     function getHeartRate() as Number {
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_251_4_254_4_start:
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 252 8 ]
-        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_251_4_254_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_251_4_254_4_stop" ]
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_260_4_263_4_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 261 8 ]
+        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_260_4_263_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_260_4_263_4_stop" ]
         %heartRateI.1 = local;
-        symbol [ heartRateI %heartRateI.1 252 12 22 ];
-        symbol [ Toybox %tmp.2 252 25 31 ];
+        symbol [ heartRateI %heartRateI.1 261 12 22 ];
+        symbol [ Toybox %tmp.2 261 25 31 ];
         %tmp.2 = getv ? :Toybox;
-        symbol [ ActivityMonitor %tmp.3 252 32 47 ];
+        symbol [ ActivityMonitor %tmp.3 261 32 47 ];
         %tmp.3 = getv %tmp.2 :ActivityMonitor;
-        symbol [ getHeartRateHistory %tmp.4 252 48 67 ];
+        symbol [ getHeartRateHistory %tmp.4 261 48 67 ];
         %tmp.4 = getv function %tmp.3 :getHeartRateHistory;
         %tmp.5 = 1;
         %tmp.6 = true;
         %tmp.7 = invoke %tmp.3 %tmp.4(%tmp.5, %tmp.6);
         lputv %heartRateI.1 %tmp.7;
-        symbol [ heartRateI %heartRateI.1 252 12 22 ];
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 253 8 ]
+        symbol [ heartRateI %heartRateI.1 261 12 22 ];
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 262 8 ]
         %tmp.8 = lgetv %heartRateI.1;
-        symbol [ heartRateI %tmp.8 253 15 25 ];
-        symbol [ next %tmp.9 253 26 30 ];
+        symbol [ heartRateI %tmp.8 262 15 25 ];
+        symbol [ next %tmp.9 262 26 30 ];
         %tmp.9 = getv function %tmp.8 :next;
         %tmp.10 = invoke %tmp.8 %tmp.9();
-        symbol [ heartRate %tmp.11 253 33 42 ];
+        symbol [ heartRate %tmp.11 262 33 42 ];
         %tmp.11 = getv %tmp.10 :heartRate;
         ret %tmp.11;
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_251_4_254_4_stop:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_260_4_263_4_stop:
     }
-    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 257; @symbol_functiondef = [getHeartRateString,257,13,31]; @symbol_return<0> = [String,257,37,43]; ]
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 266; @symbol_functiondef = [getHeartRateString,266,13,31]; @symbol_return<0> = [String,266,37,43]; ]
     function getHeartRateString() as String {
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_258_4_260_4_start:
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 259 8 ]
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_267_4_277_4_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 268 8 ]
+        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_267_4_277_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_267_4_277_4_stop" ]
+        %hr.1 = local;
+        symbol [ hr %hr.1 268 12 14 ];
         %tmp.1 = self;
-        symbol [ getHeartRate %tmp.2 259 15 27 ];
+        symbol [ getHeartRate %tmp.2 268 17 29 ];
         %tmp.2 = getv function %tmp.1 :getHeartRate;
         %tmp.3 = invoke %tmp.1 %tmp.2();
-        symbol [ format %tmp.4 259 30 36 ];
-        %tmp.4 = getv function %tmp.3 :format;
-        %tmp.5 = "%d";
-        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
-        ret %tmp.6;
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_258_4_260_4_stop:
+        lputv %hr.1 %tmp.3;
+        symbol [ hr %hr.1 268 12 14 ];
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 269 8 ]
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_269_8_276_8_if_stmt:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_269_11_269_41_begin:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_269_11_269_30_begin:
+        %tmp.4 = lgetv %hr.1;
+        symbol [ hr %tmp.4 269 11 13 ];
+        %tmp.5 = 255;
+        %tmp.6 = eq %tmp.4 %tmp.5;
+        bt %tmp.6 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_269_8_276_8_if_true;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_269_24_269_30_false:
+        %tmp.7 = lgetv %hr.1;
+        symbol [ hr %tmp.7 269 24 26 ];
+        %tmp.8 = 0;
+        %tmp.9 = eq %tmp.7 %tmp.8;
+        push %tmp.9;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_269_24_269_30_end:
+        %tmp.10 = phi [%tmp.6 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_269_11_269_30_begin] [%tmp.9 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_269_24_269_30_false] [%tmp.10 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_269_24_269_30_end];
+        bt %tmp.10 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_269_8_276_8_if_true;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_269_35_269_41_false:
+        %tmp.11 = lgetv %hr.1;
+        symbol [ hr %tmp.11 269 35 37 ];
+        %tmp.12 = null;
+        %tmp.13 = eq %tmp.11 %tmp.12;
+        push %tmp.13;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_269_35_269_41_end:
+        %tmp.14 = phi [%tmp.10 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_269_11_269_41_begin] [%tmp.13 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_269_35_269_41_false] [%tmp.14 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_269_35_269_41_end];
+        bf %tmp.14 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_269_8_276_8_if_else_false;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_269_8_276_8_if_true:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_270_8_272_8_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 271 12 ]
+        %tmp.15 = "--";
+        ret %tmp.15;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_270_8_272_8_stop:
+        goto @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_269_8_276_8_if_end;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_269_8_276_8_if_else_false:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_274_8_276_8_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 275 12 ]
+        %tmp.16 = lgetv %hr.1;
+        symbol [ hr %tmp.16 275 19 21 ];
+        %tmp.17 = as %tmp.16 { (!Null) };
+        symbol [ format %tmp.18 275 22 28 ];
+        %tmp.18 = getv function %tmp.17 :format;
+        %tmp.19 = "%d";
+        %tmp.20 = invoke %tmp.17 %tmp.18(%tmp.19);
+        ret %tmp.20;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_274_8_276_8_stop:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_269_8_276_8_if_end:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_267_4_277_4_stop:
     }
-    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 264; @symbol_functiondef = [getTemp,264,13,20]; @symbol_return<0> = [Float,264,26,31]; ]
-    function getTemp() as Float {
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_265_4_270_4_start:
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 266 8 ]
-        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_265_4_270_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_265_4_270_4_stop" ]
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 281; @symbol_functiondef = [getTempString,281,13,26]; @symbol_return<0> = [String,281,32,38]; ]
+    function getTempString() as String {
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_282_4_292_4_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 283 8 ]
+        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_282_4_292_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_282_4_292_4_stop" ]
         %currConditions.1 = local;
-        symbol [ currConditions %currConditions.1 266 12 26 ];
-        symbol [ Toybox %tmp.2 266 29 35 ];
+        symbol [ currConditions %currConditions.1 283 12 26 ];
+        symbol [ Toybox %tmp.2 283 29 35 ];
         %tmp.2 = getv ? :Toybox;
-        symbol [ Weather %tmp.3 266 36 43 ];
+        symbol [ Weather %tmp.3 283 36 43 ];
         %tmp.3 = getv %tmp.2 :Weather;
-        symbol [ getCurrentConditions %tmp.4 266 44 64 ];
+        symbol [ getCurrentConditions %tmp.4 283 44 64 ];
         %tmp.4 = getv function %tmp.3 :getCurrentConditions;
         %tmp.5 = invoke %tmp.3 %tmp.4();
         lputv %currConditions.1 %tmp.5;
-        symbol [ currConditions %currConditions.1 266 12 26 ];
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 267 8 ]
-        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_265_4_270_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_265_4_270_4_stop" ]
-        %tempC.2 = local;
-        symbol [ tempC %tempC.2 267 12 17 ];
-        %tmp.6 = lgetv %currConditions.1;
-        symbol [ currConditions %tmp.6 267 20 34 ];
-        symbol [ temperature %tmp.7 267 35 46 ];
-        %tmp.7 = getv %tmp.6 :temperature;
-        lputv %tempC.2 %tmp.7;
-        symbol [ tempC %tempC.2 267 12 17 ];
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 268 8 ]
-        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_265_4_270_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_265_4_270_4_stop" ]
-        %tempF.3 = local;
-        symbol [ tempF %tempF.3 268 12 17 ];
-        %tmp.8 = lgetv %tempC.2;
-        symbol [ tempC %tmp.8 268 21 26 ];
-        %tmp.9 = 1.8;
-        %tmp.10 = mul %tmp.8 %tmp.9;
-        %tmp.11 = 32;
-        %tmp.12 = add %tmp.10 %tmp.11;
-        lputv %tempF.3 %tmp.12;
-        symbol [ tempF %tempF.3 268 12 17 ];
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 269 8 ]
-        %tmp.13 = lgetv %tempF.3;
-        symbol [ tempF %tmp.13 269 15 20 ];
-        ret %tmp.13;
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_265_4_270_4_stop:
-    }
-    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 273; @symbol_functiondef = [getTempString,273,13,26]; @symbol_return<0> = [String,273,32,38]; ]
-    function getTempString() as String {
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_274_4_277_4_start:
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 275 8 ]
-        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_274_4_277_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_274_4_277_4_stop" ]
-        %tempString.1 = local;
-        symbol [ tempString %tempString.1 275 12 22 ];
-        %tmp.1 = self;
-        symbol [ getTemp %tmp.2 275 25 32 ];
-        %tmp.2 = getv function %tmp.1 :getTemp;
-        %tmp.3 = invoke %tmp.1 %tmp.2();
-        symbol [ format %tmp.4 275 35 41 ];
-        %tmp.4 = getv function %tmp.3 :format;
-        %tmp.5 = "%.0f";
-        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
-        lputv %tempString.1 %tmp.6;
-        symbol [ tempString %tempString.1 275 12 22 ];
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 276 8 ]
-        %tmp.7 = lgetv %tempString.1;
-        symbol [ tempString %tmp.7 276 15 25 ];
-        ret %tmp.7;
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_274_4_277_4_stop:
-    }
-    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 282; @symbol_functiondef = [getBatteryStatus,282,13,29]; @symbol_return<0> = [Boolean,282,35,42]; ]
-    function getBatteryStatus() as Boolean {
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_283_4_285_4_start:
+        symbol [ currConditions %currConditions.1 283 12 26 ];
 [ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 284 8 ]
-        symbol [ Toybox %tmp.2 284 15 21 ];
+        [ "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_282_4_292_4_start" "_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_282_4_292_4_stop" ]
+        %tempF.2 = local;
+        symbol [ tempF %tempF.2 284 12 17 ];
+        %tmp.6 = "--";
+        lputv %tempF.2 %tmp.6;
+        symbol [ tempF %tempF.2 284 12 17 ];
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 285 8 ]
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_285_8_290_8_if_stmt:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_285_11_285_67_begin:
+        %tmp.7 = lgetv %currConditions.1;
+        symbol [ currConditions %tmp.7 285 11 25 ];
+        %tmp.8 = null;
+        %tmp.9 = ne %tmp.7 %tmp.8;
+        bf %tmp.9 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_285_8_290_8_if_else_false;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_285_37_285_67_true:
+        %tmp.10 = lgetv %currConditions.1;
+        symbol [ currConditions %tmp.10 285 37 51 ];
+        %tmp.11 = as %tmp.10 { (!Null) };
+        symbol [ temperature %tmp.12 285 52 63 ];
+        %tmp.12 = getv %tmp.11 :temperature;
+        %tmp.13 = null;
+        %tmp.14 = ne %tmp.12 %tmp.13;
+        push %tmp.14;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_285_37_285_67_end:
+        %tmp.15 = phi [%tmp.9 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_285_11_285_67_begin] [%tmp.14 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_285_37_285_67_true] [%tmp.15 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_285_37_285_67_end];
+        bf %tmp.15 @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_285_8_290_8_if_else_false;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_285_8_290_8_if_true:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_285_73_287_8_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 286 12 ]
+        %tmp.16 = lgetv %currConditions.1;
+        symbol [ currConditions %tmp.16 286 22 36 ];
+        %tmp.17 = as %tmp.16 { (!Null) };
+        symbol [ temperature %tmp.18 286 37 48 ];
+        %tmp.18 = getv %tmp.17 :temperature;
+        %tmp.19 = 1.8;
+        %tmp.20 = mul %tmp.18 %tmp.19;
+        %tmp.21 = 32;
+        %tmp.22 = add %tmp.20 %tmp.21;
+        symbol [ format %tmp.23 286 62 68 ];
+        %tmp.23 = getv function %tmp.22 :format;
+        %tmp.24 = "%d";
+        %tmp.25 = invoke %tmp.22 %tmp.23(%tmp.24);
+        lputv %tempF.2 %tmp.25;
+        symbol [ tempF %tempF.2 286 12 17 ];
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_285_73_287_8_stop:
+        goto @_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_285_8_290_8_if_end;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_285_8_290_8_if_else_false:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_288_13_290_8_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 289 12 ]
+        %tmp.26 = "--";
+        lputv %tempF.2 %tmp.26;
+        symbol [ tempF %tempF.2 289 12 17 ];
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_288_13_290_8_stop:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_285_8_290_8_if_end:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 291 8 ]
+        %tmp.27 = lgetv %tempF.2;
+        symbol [ tempF %tmp.27 291 15 20 ];
+        ret %tmp.27;
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_282_4_292_4_stop:
+    }
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 297; @symbol_functiondef = [getBatteryStatus,297,13,29]; @symbol_return<0> = [Boolean,297,35,42]; ]
+    function getBatteryStatus() as Boolean {
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_298_4_300_4_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 299 8 ]
+        symbol [ Toybox %tmp.2 299 15 21 ];
         %tmp.2 = getv ? :Toybox;
-        symbol [ System %tmp.3 284 22 28 ];
+        symbol [ System %tmp.3 299 22 28 ];
         %tmp.3 = getv %tmp.2 :System;
-        symbol [ getSystemStats %tmp.4 284 29 43 ];
+        symbol [ getSystemStats %tmp.4 299 29 43 ];
         %tmp.4 = getv function %tmp.3 :getSystemStats;
         %tmp.5 = invoke %tmp.3 %tmp.4();
-        symbol [ charging %tmp.6 284 46 54 ];
+        symbol [ charging %tmp.6 299 46 54 ];
         %tmp.6 = getv %tmp.5 :charging;
         ret %tmp.6;
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_283_4_285_4_stop:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_298_4_300_4_stop:
     }
-    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 288; @symbol_functiondef = [getBattery,288,13,23]; @symbol_return<0> = [Float,288,29,34]; ]
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 303; @symbol_functiondef = [getBattery,303,13,23]; @symbol_return<0> = [Float,303,29,34]; ]
     function getBattery() as Float {
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_289_4_291_4_start:
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 290 8 ]
-        symbol [ Toybox %tmp.2 290 15 21 ];
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_304_4_306_4_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 305 8 ]
+        symbol [ Toybox %tmp.2 305 15 21 ];
         %tmp.2 = getv ? :Toybox;
-        symbol [ System %tmp.3 290 22 28 ];
+        symbol [ System %tmp.3 305 22 28 ];
         %tmp.3 = getv %tmp.2 :System;
-        symbol [ getSystemStats %tmp.4 290 29 43 ];
+        symbol [ getSystemStats %tmp.4 305 29 43 ];
         %tmp.4 = getv function %tmp.3 :getSystemStats;
         %tmp.5 = invoke %tmp.3 %tmp.4();
-        symbol [ battery %tmp.6 290 46 53 ];
+        symbol [ battery %tmp.6 305 46 53 ];
         %tmp.6 = getv %tmp.5 :battery;
         ret %tmp.6;
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_289_4_291_4_stop:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_304_4_306_4_stop:
     }
-    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 294; @symbol_functiondef = [getBatteryString,294,13,29]; @symbol_return<0> = [String,294,35,41]; ]
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 309; @symbol_functiondef = [getBatteryString,309,13,29]; @symbol_return<0> = [String,309,35,41]; ]
     function getBatteryString() as String {
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_295_4_297_4_start:
-[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 296 8 ]
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_310_4_312_4_start:
+[ "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc" 311 8 ]
         %tmp.1 = self;
-        symbol [ getBattery %tmp.2 296 15 25 ];
+        symbol [ getBattery %tmp.2 311 15 25 ];
         %tmp.2 = getv function %tmp.1 :getBattery;
         %tmp.3 = invoke %tmp.1 %tmp.2();
-        symbol [ format %tmp.4 296 28 34 ];
+        symbol [ format %tmp.4 311 28 34 ];
         %tmp.4 = getv function %tmp.3 :format;
         %tmp.5 = "%d";
         %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
         %tmp.7 = "%";
         %tmp.8 = add %tmp.6 %tmp.7;
         ret %tmp.8;
-_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_295_4_297_4_stop:
+_home_ry_dev_Minimal_Garmin_Watchface_source_MinGFaceView_mc_310_4_312_4_stop:
     }
-    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 302; @symbol_functiondef = [onHide,302,13,19]; ]
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 317; @symbol_functiondef = [onHide,317,13,19]; ]
     function onHide() as Void {
     }
-    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 306; @symbol_functiondef = [onExitSleep,306,13,24]; ]
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 321; @symbol_functiondef = [onExitSleep,321,13,24]; ]
     function onExitSleep() as Void {
     }
-    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 310; @symbol_functiondef = [onEnterSleep,310,13,25]; ]
+    [ @file = "/home/ry/dev/Minimal-Garmin-Watchface/source/MinGFaceView.mc"; @line = 325; @symbol_functiondef = [onEnterSleep,325,13,25]; ]
     function onEnterSleep() as Void {
     }
 }
